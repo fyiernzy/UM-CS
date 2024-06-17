@@ -1,0 +1,9 @@
+# Note
+
+Virtual memory operates based on the principle of locality, where a small section of a program is executed over a short period of time. To optimize memory usage, virtual memory divides the address space into fixed-sized blocks called pages, while physical memory is divided into corresponding blocks called frames. The operating system maps these pages to frames using a page table.
+
+Virtual memory utilizes demand paging, bringing in pages of a process into physical memory when they are needed (on demand). This approach avoids wasteful loading of pages that are not currently required. As a result, demanded pages are executed in physical memory, while others remain in disk storage, significantly enhancing memory efficiency.
+
+When page fault occur, that is, the requested page is not currently in physical memory, the operating system will initiates a disk I/O operation to read and load the required page from disk storage into the frame in RAM. Once the page is loaded into RAM, the operating system updates the page table to reflect the new mapping between the virtual and physical addresses.
+
+ISA (Instruction Set Architecture) is the design of the instruction set in computer architecture, serving as the interface between software and hardware. It defines the set of instructions with certain format and specifies how a processor should execute them. ISA encompasses considerations such as the operation repertoire, supported data types, instruction formats, registers, and addressing modes. ISA allows software developers to write programs without needing to understand the underlying hardware details, while defining the rules and capabilities that hardware must support for instruction execution. 

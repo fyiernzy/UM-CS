@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "c896e3c81e5b18b2",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f33e333331725a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e620cd1a01cbe333",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Algorithm/Graph/Generic Method.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d93e12cf367ecee3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Missing-Semester/`chmod`.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f525c8d7193dd4a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a405d625e27b00d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8b7809c5c18b90ea",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "310ebcc937756ba4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3159b8eb20ca374d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "f8ed3f52b0406f0f",
+    "type": "split",
+    "children": [
+      {
+        "id": "4deb0c10fb4c8d95",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "deb74e042a93c6fd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Algorithm/Graph/Generic Method.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f2d84bea852ac0b8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Algorithm/Graph/Generic Method.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6023d472f89ed327",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "55366c38a2792c1c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Algorithm/Graph/Generic Method.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e620cd1a01cbe333",
+  "lastOpenFiles": [
+    "Algorithm/Graph/DFS.md",
+    "Algorithm/Graph/BFS.md",
+    "UM/Algorithm/WIA2005-PY2017.md",
+    "Missing-Semester/The Shell.md",
+    "Missing-Semester/`chmod`.md",
+    "Algorithm/Hash/Linear Probing.md",
+    "Missing-Semester",
+    "Algorithm/Hash/Probing.md",
+    "Algorithm/Hash/Primary Clustering.md",
+    "Algorithm/Hash/Open Addressing.md",
+    "Algorithm/Hash/Hash Table.md",
+    "Algorithm/Hash/Hash Function.md",
+    "Algorithm/Hash/Chaining.md",
+    "Graph Note.md",
+    "Images/Pasted image 20240617111812.png",
+    "UM/Algorithm",
+    "UM",
+    "Images/Pasted image 20240617120706.png",
+    "Images/Pasted image 20240617115712.png",
+    "MergeSort.md",
+    "Algorithm/Graph/Generic Method.md",
+    "Algorithm/Graph/T-14-A.md",
+    "Minimum Spanning Tree.md",
+    "Algorithm/Dynamic-Programmingr/Dynamic Programming.md",
+    "Images/Pasted image 20240617114314.png",
+    "Images/Pasted image 20240617112935.png",
+    "Images/Pasted image 20240617112923.png",
+    "Images/Pasted image 20240617112018.png",
+    "Algorithm/Graph/Prim's Algorithm (Eager).md",
+    "Algorithm/Graph/Topological Sort.md",
+    "Algorithm/Randomized/Randomized-Select Algorithm.md",
+    "Algorithm/Randomized/Randomized Algorithm.md",
+    "Algorithm/Randomized/Probabilistic Analysis.md",
+    "Algorithm/Randomized/Principle of Linearity of Expectation.md",
+    "Algorithm/Randomized/Order Statistic.md",
+    "Algorithm/Randomized/Non-Stable Sorting Algorithm.md",
+    "Images/Pasted image 20240529071255.png",
+    "Images/Pasted image 20240616105606.png",
+    "Images/Pasted image 20240607112158.png",
+    "Algorithm/Graph",
+    "Algorithm/Dynamic-Programmingr",
+    "Algorithm/Randomized",
+    "Algorithm/Greedy-Algorithm",
+    "SRE",
+    "Algorithm/Hash",
+    "Images",
+    "Untitled 1.canvas",
+    "Untitled.canvas"
+  ]
+}
