@@ -1,3 +1,6 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "baseFontSize": 20,
+  "textFontFamily": "Cambria,Roboto,American Typewriter,Times",
+  "baseFontSizeAction": true
 }

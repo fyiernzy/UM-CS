@@ -55,7 +55,7 @@ Index:  0  1  2  3  4  5  6  7  8  9
 Now let's handle a collision using double hashing:
 
 - **Insert `55`**:
-  - Primary hash value:$ h_1(55) = 55 \mod 10 = 5 $.
+  - Primary hash value:$h_1(55) = 55 \mod 10 = 5$.
   - Slot `5` is empty, insert `55` at slot `5`.
 
 **Hash Table State**:
