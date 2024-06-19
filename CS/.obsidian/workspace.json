@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UM/Algorithm/WIA2005-PY2018.md",
+                "file": "UM/Operating-System/WIA2004_PY2018.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "UM/Algorithm/WIA2005-PY2018.md",
+                "file": "UM/Operating-System/WIA2004_PY2018.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "UM/Algorithm/WIA2005-PY2018.md",
+                "file": "UM/Operating-System/WIA2004_PY2018.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "UM/Algorithm/WIA2005-PY2018.md"
+                "file": "UM/Operating-System/WIA2004_PY2018.md"
               }
             }
           }
@@ -149,8 +149,18 @@
   },
   "active": "ded5c30e1510630d",
   "lastOpenFiles": [
-    "Algorithm/Greedy-Algorithm/Greedy Algorithm.md",
+    "Pasted image 20240619131257.png",
+    "Images/Pasted image 20240618161350.png",
+    "UM/Operating-System/WIA2004_PY2018.md",
+    "UM/Algorithm/WIA2005-PY2019.md",
+    "Images/Pasted image 20240619085114.png",
+    "Images/Pasted image 20240619084118.png",
+    "Images/Pasted image 20240619084059.png",
+    "Images/Pasted image 20240619084049.png",
+    "Images/Pasted image 20240619073205.png",
+    "Images/Pasted image 20240619073158.png",
     "UM/Algorithm/WIA2005-PY2018.md",
+    "Algorithm/Greedy-Algorithm/Greedy Algorithm.md",
     "Load factor.md",
     "Algorithm/Hash/QA - Hash - Tutorial 8.md",
     "Algorithm/Hash/QA - Hash - Extras.md",
@@ -163,8 +173,7 @@
     "Algorithm/Hash/Primary Clustering.md",
     "Algorithm/Hash/Hash Collision.md",
     "Algorithm/Hash/Double Hashing.md",
-    "Pasted image 20240618163834.png",
-    "Pasted image 20240618161350.png",
+    "Images/Pasted image 20240618163834.png",
     "Missing-Semester/`chmod`.md",
     "UM/Operating-System/WIA2004_PY2017_2.md",
     "Images/Pasted image 20240618154836.png",
@@ -176,19 +185,10 @@
     "Algorithm/Dynamic-Programmingr/Dynamic Programming.md",
     "Algorithm/Dynamic-Programmingr/ALGO-T9A.md",
     "Graph Note.md",
-    "MergeSort.md",
-    "Algorithm/Randomized/Merge Sort.md",
-    "Algorithm/Graph/Generic Method.md",
     "Missing-Semester",
     "Images/Pasted image 20240617111812.png",
     "UM/Algorithm",
     "UM",
-    "Images/Pasted image 20240617120706.png",
-    "Images/Pasted image 20240617115712.png",
-    "Images/Pasted image 20240617114314.png",
-    "Images/Pasted image 20240617112935.png",
-    "Images/Pasted image 20240617112923.png",
-    "Images/Pasted image 20240617112018.png",
     "Algorithm/Graph",
     "Algorithm/Dynamic-Programmingr",
     "Algorithm/Randomized",
