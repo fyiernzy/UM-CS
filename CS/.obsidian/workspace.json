@@ -11,9 +11,11 @@
             "id": "3c2c30ab83d7ddcb",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "@images/WIA2004-2020-1-Q4.png"
+                "file": "wia2004-operating-system/WIA2004/C5_Summary.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -46,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Mutual exclusion",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,11 +65,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 291.5,
+    "collapsed": true
   },
   "right": {
     "id": "f8ed3f52b0406f0f",
@@ -83,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "@images/WIA2004-2020-1-Q4.png",
+                "file": "wia2004-operating-system/WIA2004/C5_Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "@images/WIA2004-2020-1-Q4.png",
+                "file": "wia2004-operating-system/WIA2004/C5_Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "@images/WIA2004-2020-1-Q4.png"
+                "file": "wia2004-operating-system/WIA2004/C5_Summary.md"
               }
             }
           }
@@ -144,27 +148,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8b7809c5c18b90ea",
+  "active": "3c2c30ab83d7ddcb",
   "lastOpenFiles": [
     "um-past-year-answers/Operating-System/WIA2004-PY2020-1.md",
+    "wia2004-operating-system/WIA2004/C5_Summary.md",
+    "um-past-year-answers/Operating-System/WIA2004_PY2019-2.md",
+    "wia2004-operating-system/WIA2004/C2_Summary.md",
+    "wia2004-operating-system/WIA2004/C4_Summary.md",
+    "wia2004-operating-system/WIA2004/C3_Summary.md",
+    "um-past-year-answers/Operating-System/WIA2004-PY2018-1.md",
+    "wia2004-operating-system/WIA2004",
+    "Pasted image 20240620075827.png",
+    "wia2004-operating-system",
     "@images/WIA2004-2020-1-Q4.png",
     "@images/WIA2004-2020-1-Q3B.png",
-    "um-past-year-answers/Operating-System/WIA2004-PY2018-1.md",
     "@images/WIA2004-2020-1-Q2A.png",
     "@images/WIA2004-2020-1-Q3A.png",
     "@images/WIA2004-2020-1-Q2B.png",
     "Pasted image 20240620140658.png",
     "Pasted image 20240620115949.png",
     "Pasted image 20240620115942.png",
-    "Pasted image 20240620075827.png",
     "@images/WIA2004-2020-1-Q2a.png",
-    "um-past-year-answers/Operating-System/WIA2004_PY2019-2.md",
     "um-past-year-answers/Operating-System/WIA2004_PY2018-2.md",
     "um-past-year-answers/Operating-System/WIA2004_PY2017-2.md",
     "web/Rendering Pattern.md",
     "interview/问题集1.md",
     "web",
-    "algorithm-and-data-structure/Heapsort.md",
+    "wia2005-algorithm-and-data-structure/Heapsort.md",
     "interview",
     "UM/Operating-System/WIA2004_PY2018.md",
     "UM/Algorithm/WIA2005-PY2019.md",
@@ -180,17 +190,12 @@
     "Algorithm/Hash/Hash Table.md",
     "Algorithm/Hash/Linear Probing.md",
     "Algorithm/Hash/Primary Clustering.md",
-    "Algorithm/Hash/Hash Collision.md",
-    "Algorithm/Hash/Double Hashing.md",
-    "Missing-Semester/`chmod`.md",
     "UM/Operating-System",
     "Missing-Semester",
     "UM/Algorithm",
     "UM",
     "Algorithm/Graph",
     "Algorithm/Dynamic-Programmingr",
-    "Algorithm/Randomized",
-    "Algorithm/Greedy-Algorithm",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
