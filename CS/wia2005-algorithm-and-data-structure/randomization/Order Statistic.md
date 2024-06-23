@@ -3,7 +3,6 @@
 - Specifically, the $k$-th order statistic is the $k$-th smallest value in the sample.
 
 ### Definition
-
 Given a sample of $n$ data points $X_1, X_2, \ldots, X_n$, the order statistics are the sorted values of this sample. When these values are sorted in ascending order, we denote them as $X_{(1)}, X_{(2)}, \ldots, X_{(n)}$, where:
 - $X_{(1)}$ is the smallest value (the 1st order statistic).
 - $X_{(2)}$ is the second smallest value (the 2nd order statistic).
@@ -11,7 +10,6 @@ Given a sample of $n$ data points $X_1, X_2, \ldots, X_n$, the order statistics 
 - $X_{(n)}$ is the largest value (the $n$-th order statistic).
 
 ### Examples
-
 #### 1. Simple Example with a Small Data Set
 
 Consider a sample of 5 data points: $3, 1, 4, 1, 5$.
@@ -25,11 +23,9 @@ Consider a sample of 5 data points: $3, 1, 4, 1, 5$.
    - The 5th order statistic $X_{(5)}$ is 5.
 
 #### 2. Median Example
-
 The median of a sample is a specific order statistic. For an odd number of data points, the median is the $\left(\frac{n+1}{2}\right)$-th order statistic. For an even number of data points, the median is typically the average of the $\left(\frac{n}{2}\right)$-th and $\left(\frac{n}{2}+1\right)$-th order statistics.
 
 **Example**: Consider the sample $7, 2, 5, 9, 1$.
-
 1. **Sort the data**: The sorted values are $1, 2, 5, 7, 9$.
 2. **Median**:
    - For 5 data points (odd number), the median is the 3rd order statistic, which is 5.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wia2004-operating-system/WIA2004/C5_Summary.md",
+                "file": "wia2005-algorithm-and-data-structure/summary/WIA2005-C8-Summary.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Mutual exclusion",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,13 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 291.5,
-    "collapsed": true
+    "width": 291.5
   },
   "right": {
     "id": "f8ed3f52b0406f0f",
@@ -87,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wia2004-operating-system/WIA2004/C5_Summary.md",
+                "file": "wia2005-algorithm-and-data-structure/summary/WIA2005-C8-Summary.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wia2004-operating-system/WIA2004/C5_Summary.md",
+                "file": "wia2005-algorithm-and-data-structure/summary/WIA2005-C8-Summary.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wia2004-operating-system/WIA2004/C5_Summary.md"
+                "file": "wia2005-algorithm-and-data-structure/summary/WIA2005-C8-Summary.md"
               }
             }
           }
@@ -150,13 +148,38 @@
   },
   "active": "3c2c30ab83d7ddcb",
   "lastOpenFiles": [
-    "um-past-year-answers/Operating-System/WIA2004-PY2020-1.md",
-    "wia2004-operating-system/WIA2004/C5_Summary.md",
-    "um-past-year-answers/Operating-System/WIA2004_PY2019-2.md",
-    "wia2004-operating-system/WIA2004/C2_Summary.md",
-    "wia2004-operating-system/WIA2004/C4_Summary.md",
-    "wia2004-operating-system/WIA2004/C3_Summary.md",
-    "um-past-year-answers/Operating-System/WIA2004-PY2018-1.md",
+    "wia2005-algorithm-and-data-structure/summary/WIA2005-C7-Summary.md",
+    "wia2005-algorithm-and-data-structure/summary/WIA2005-C8-Summary.md",
+    "wia2005-algorithm-and-data-structure/summary/WIA2005-C3-Summary.md",
+    "wia2005-algorithm-and-data-structure/summary/WIA2005-C5-Summary.md",
+    "Pasted image 20240623102209.png",
+    "@images/randomized-select-pseudocode.png",
+    "wia2005-algorithm-and-data-structure/randomization/Relationship Between IRV, Random Variable, and Expected Value.md",
+    "wia2005-algorithm-and-data-structure/randomization/Expected Value of a Random Variable.md",
+    "wia2005-algorithm-and-data-structure/randomization/Order Statistic.md",
+    "wia2005-algorithm-and-data-structure/randomization/Principle of Linearity of Expectation.md",
+    "wia2005-algorithm-and-data-structure/randomization/Probabilistic Analysis.md",
+    "wia2005-algorithm-and-data-structure/randomization/Random Variable.md",
+    "wia2005-algorithm-and-data-structure/randomization/Randomized Algorithm.md",
+    "wia2005-algorithm-and-data-structure/randomization/Indicator Random Variable (IRV).md",
+    "wia2005-algorithm-and-data-structure/hash/QA - Hash - Extras.md",
+    "wia2005-algorithm-and-data-structure/tutorial/Algo-T-8-A.md",
+    "wia2005-algorithm-and-data-structure/tutorial/Algo-T-11-A.md",
+    "wia2005-algorithm-and-data-structure/tutorial/Algo-T-9-A.md",
+    "wia2005-algorithm-and-data-structure/graph/Graph Note.md",
+    "wia2005-algorithm-and-data-structure/graph/Graph.md",
+    "wia2005-algorithm-and-data-structure/summary/Sorting.md",
+    "wia2005-algorithm-and-data-structure/Untitled.md",
+    "wia2005-algorithm-and-data-structure/sorting/Heapsort.md",
+    "wia2005-algorithm-and-data-structure/Load factor.md",
+    "wia2005-algorithm-and-data-structure/sorting",
+    "wia2005-algorithm-and-data-structure/graph/Minimum Spanning Tree.md",
+    "wia2005-algorithm-and-data-structure/tutorial",
+    "wia2005-algorithm-and-data-structure/divide-and-conquer/Pros and Cons of Heapsort.md",
+    "wia2005-algorithm-and-data-structure/divide-and-conquer/Heapsort.md",
+    "wia2005-algorithm-and-data-structure/divide-and-conquer/Divide and Conquer.md",
+    "wia2005-algorithm-and-data-structure/divide-and-conquer",
+    "wia2005-algorithm-and-data-structure/summary",
     "wia2004-operating-system/WIA2004",
     "Pasted image 20240620075827.png",
     "wia2004-operating-system",
@@ -167,35 +190,10 @@
     "@images/WIA2004-2020-1-Q2B.png",
     "Pasted image 20240620140658.png",
     "Pasted image 20240620115949.png",
-    "Pasted image 20240620115942.png",
-    "@images/WIA2004-2020-1-Q2a.png",
-    "um-past-year-answers/Operating-System/WIA2004_PY2018-2.md",
-    "um-past-year-answers/Operating-System/WIA2004_PY2017-2.md",
-    "web/Rendering Pattern.md",
-    "interview/问题集1.md",
     "web",
-    "wia2005-algorithm-and-data-structure/Heapsort.md",
     "interview",
-    "UM/Operating-System/WIA2004_PY2018.md",
-    "UM/Algorithm/WIA2005-PY2019.md",
-    "UM/Algorithm/WIA2005-PY2018.md",
-    "Algorithm/Greedy-Algorithm/Greedy Algorithm.md",
-    "Load factor.md",
-    "Algorithm/Hash/QA - Hash - Tutorial 8.md",
-    "Algorithm/Hash/QA - Hash - Extras.md",
-    "Algorithm/Hash/Open Addressing.md",
-    "Algorithm/Hash/Chaining.md",
-    "Algorithm/Hash/Hash Function.md",
-    "Algorithm/Hash/Hash Delete.md",
-    "Algorithm/Hash/Hash Table.md",
-    "Algorithm/Hash/Linear Probing.md",
-    "Algorithm/Hash/Primary Clustering.md",
     "UM/Operating-System",
     "Missing-Semester",
-    "UM/Algorithm",
-    "UM",
-    "Algorithm/Graph",
-    "Algorithm/Dynamic-Programmingr",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]

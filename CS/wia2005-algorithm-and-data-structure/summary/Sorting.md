@@ -1,4 +1,3 @@
-
 **Counting Sort**
 - Counting sort is not an in-place algorithm. It initializes a new array and fills it using a helper array.
 - It requires auxiliary space.
