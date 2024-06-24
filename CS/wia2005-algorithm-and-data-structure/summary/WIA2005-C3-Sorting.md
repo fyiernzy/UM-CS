@@ -18,13 +18,13 @@
 > 
 > An offline algorithm requires all input to be available before it starts the sorting process.
 
-|               | Stable/ Non-stable                      | In-place/ Not in-place                | Adaptive/ Non-adaptive | Online/ Offline |
-| ------------- | --------------------------------------- | ------------------------------------- | ---------------------- | --------------- |
-| Bubble Sort   | Stable                                  | In-place                              | Adaptive               | Offline         |
-| Counting Sort | Stable                                  | Not in-place                          | Non-adaptive           | Offline         |
-| Radix Sort    | Stable                                  | Not in-place<br>*(Use counting sort)* | Non-adaptive           | Offline         |
-| Bucket Sort   | Stable<br>*(If insertion sort is used)* | Not in-place                          | Non-adaptive           | Offline         |
-| Shell Sort    | Non stable                              | In-place                              | Non-adaptive           | Offline         |
+|               | Stable/ Non-stable                      | In-place/ Not in-place                | Adaptive/ Non-adaptive | Online/ Offline | Time complexity                                                            |
+| ------------- | --------------------------------------- | ------------------------------------- | ---------------------- | --------------- | -------------------------------------------------------------------------- |
+| Bubble Sort   | Stable                                  | In-place                              | Adaptive               | Offline         | $O(n^2)$                                                                   |
+| Counting Sort | Stable                                  | Not in-place                          | Non-adaptive           | Offline         | $O(n+k)$<br>$n$ is the number of elements, where $k$ is the range of input |
+| Radix Sort    | Stable                                  | Not in-place<br>*(Use counting sort)* | Non-adaptive           | Offline         | $O(n\cdot d)$, where $d$ is the number of digits in the largest number     |
+| Bucket Sort   | Stable<br>*(If insertion sort is used)* | Not in-place                          | Non-adaptive           | Offline         | $O(n^2)$ (depends on the sorting algorithm used)                           |
+| Shell Sort    | Non stable                              | In-place                              | Non-adaptive           | Offline         | Depends on the sequence                                                    |
 
 | Order          | In an ... order array, every element $k_n$ is ... its previous element $k_{n-1}$ |
 | -------------- | -------------------------------------------------------------------------------- |
@@ -33,11 +33,6 @@
 | Decreasing     | smaller than                                                                     |
 | Non-increasing | smaller than or equal to                                                         |
 
-Bubble Sort
-Shell Sort
-Radix Sort
-Counting Sort
-Bucket Sort
 
 
 

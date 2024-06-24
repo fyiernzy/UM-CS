@@ -63,3 +63,35 @@ A **good hash function** satisfies, or approximately satisfies, the assumption o
 **Primary clustering** is a situation where hash collision occurs frequently on a specific hash value, causing probing takes more time gradually and finally resulting in $O(n)$ probing time.
 
 **Secondary clustering** occurs when using double hashing or quadratic probing result in the same probing sequence for keys that hash to the same initial index.
+
+# Tutorial
+---
+**What is the significance of hash code distribution in hash tables? How does it impact the efficiency of hash table operations?**
+
+Uniformly distributed hash codes have an equal chance of being chose, allowing optimal insertion and search at $O(1)$ due to minimized hash collisions.
+
+Non-uniformly distributed hash code causes clustering, leading to more frequent hash collisions. In chaining, this results in longer the linked lists; in open addressing, probing time increases. Both cases can result in worst-case $O(n)$ insertion and search times.
+
+**Explain the process of resizing a hash table. When and why is it necessary to resize a hash table?**
+
+Resizing a hash table involves adjusting array size, updating hash function parameters, and rehashing existing keys to ensure even distribution.
+
+Steps:
+- Determine new size, typically a prime number about double the current size.
+- Create new table
+- Rehash all entries from the old table into the new table using the updated hash function.
+- Replace the old table with the new one and update the hash function parameters.
+
+Resizing is done when load factor approaches 1, around 0.7 to 0.8, to prevents insertion and search time complexity from degrading to $O(n)$. In open addressing, it also allows for more key to be stored.
+
+**What is the purpose of a load factor in a hash table? How does it affect the performance of hash table operations?**
+
+The load factor is the ratio of number of elements $n$ to the number of slots $m$ in the hash table. It indicates how full the hash table is and is often used as a threshold for resizing.
+
+A low load factor means fewer elements per slot, minimizing collisions and maintaining $O(1)$ performance for search, insertion and deletion.
+
+A high load factor increases collisions, degrading performance to $O(n)$.
+
+**Linear probing** suffers from primary clustering, where consecutive occupied slots form long clusters. This results in longer probing sequences, degrading performance as the load factor increases.
+
+Quadratic probing reduces primary clustering but still suffers from secondary clustering, where keys that hash to the same initial index follow similar probing sequences.
