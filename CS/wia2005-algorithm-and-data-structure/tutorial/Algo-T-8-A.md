@@ -10,21 +10,83 @@ keys = {19, 26, 13, 47, 17}, $h(k) = k \mod 7$
 - $k(26) = 26 \mod 7 = 5$
 - $k(13) = 13 \mod 7 = 6$
 - $k(47) = 47 \mod 7 = 5$
-- $k(17) = 17 \mod 7 = 5$
+- $k(17) = 17 \mod 7 = 3$
 
 ```bash
 0  []
 1  []
 2  []
-3  []
+3  []-> 17
 4  []
-5  [] -> 19 -> 26 -> 47 -> 17
+5  [] -> 19 -> 26 -> 47 
 6  [] -> 13
 ```
 
 ### Q1B
-Q1B
-Q1B
+The formula of linear probing is given as:
+$$h(k,i)=\left(h'(k)+i\right)\ \text{mod}\ m$$
+
+| key | **$h'(k)=k\ \text{mod}\ 7$** | **$i$** | **$h(k,i)=\left(h'(k)+i\right)\ \text{mod}\ 7$** |
+| --- | ---------------------------- | ------- | ------------------------------------------------ |
+| 19  | $19\ \text{mod}\ 7=5$        | 0       | $h(19,0)=\left(5+0\right)\ \text{mod}\ 7=5$      |
+| 26  | $26\ \text{mod}\ 7=5$        | 1       | $h(26,1)=\left(5+1\right)\ \text{mod}\ 7=6$      |
+| 13  | $13\ \text{mod}\ 7=6$        | 1       | $h(13,1)=\left(6+1\right)\ \text{mod}\ 7=0$      |
+| 47  | $47\ \text{mod}\ 7=5$        | 3       | $h(47,3)=\left(5+3\right)\ \text{mod}\ 7=1$      |
+| 17  | $17\ \text{mod}\ 7=3$        | 0       | $h(17,0)=\left(3+0\right)\ \text{mod}\ 7=3$      |
+
+| *hash* | key |
+| ------ | --- |
+| 0      | 13  |
+| 1      | 47  |
+| 2      | NIL |
+| 3      | 17  |
+| 4      | NIL |
+| 5      | 19  |
+| 6      | 26  |
+
+### Q1C
+The formula of quadratic probing is given as:
+$$h(k,i)=\left(h'(k)+i^{2}\right)\ \text{mod}\ m$$
+
+| key | $h'(k)=k\ \text{mod}\ 7$ | $i^2$   | $h(k,i)=\left(h'(k)+i^2\right)\ \text{mod}\ 7$ |
+| --- | ------------------------ | ------- | ---------------------------------------------- |
+| 19  | $19\ \text{mod}\ 7=5$    | $0^2=0$ | $h(19,0)=\left(5+0\right)\ \text{mod}\ 7=5$    |
+| 26  | $26\ \text{mod}\ 7=5$    | $1^2=1$ | $h(26,1)=\left(5+1\right)\ \text{mod}\ 7=6$    |
+| 13  | $13\ \text{mod}\ 7=6$    | $1^2=1$ | $h(13,1)=\left(6+1\right)\ \text{mod}\ 7=0$    |
+| 47  | $47\ \text{mod}\ 7=5$    | $2^2=4$ | $h(47,3)=\left(5+4\right)\ \text{mod}\ 7=2$    |
+| 17  | $17\ \text{mod}\ 7=3$    | $0^2=0$ | $h(17,0)=\left(3+0\right)\ \text{mod}\ 7=3$    |
+
+| *hash* | key |
+| ------ | --- |
+| 0      | 13  |
+| 1      | NIL |
+| 2      | 47  |
+| 3      | 17  |
+| 4      | NIL |
+| 5      | 19  |
+| 6      | 26  |
+
+### Q1D
+The formula of double hashing is given as:
+$$h(k,i)=\left(h_{1}(k)+i\cdot h_{2}(k)\right)\ \text{mod}\ m$$
+
+| key | $h_{1}(k)=k\ \text{mod}\ 7$ | $h_{2}(k)=5-k\ \text{mod}\ 5$ | $i$ | $h(k,i)=\left(h_{1}(k)+i\cdot h_{2}(k)\right)\ \text{mod}\ 7$ |
+| --- | --------------------------- | ----------------------------- | --- | ------------------------------------------------------------- |
+| 19  | $19\ \text{mod}\ 7=5$       | -                             | 0   | $h(19,0)=\left(5+0\right)\ \text{mod}\ 7=5$                   |
+| 26  | $26\ \text{mod}\ 7=5$       | $5-26\ \text{mod}\ 5=4$       | 1   | $h(26,1)=\left(5+4\right)\ \text{mod}\ 7=2$                   |
+| 13  | $13\ \text{mod}\ 7=6$       | -                             | 0   | $h(13,0)=\left(6+0\right)\ \text{mod}\ 7=6$                   |
+| 47  | $47\ \text{mod}\ 7=5$       | $5-47\ \text{mod}\ 5=3$       | 1   | $h(47,1)=\left(5+3\right)\ \text{mod}\ 7=1$                   |
+| 17  | $17\ \text{mod}\ 7=3$       | -                             | 0   | $h(17,0)=\left(3+0\right)\ \text{mod}\ 7=3$                   |
+
+| *hash* | key |
+| ------ | --- |
+| 0      | NIL |
+| 1      | 47  |
+| 2      | 26  |
+| 3      | 17  |
+| 4      | NIL |
+| 5      | 19  |
+| 6      | 13  |
 
 ## Question 2
 **What is the significance of hash code distribution in hash tables? How does it impact the efficiency of hash table operations?**
@@ -85,7 +147,7 @@ To maintain optimal performance, hash tables are typically resized when the load
 Double hashing is more appropriate because it provides the highest rate of randomness in probing sequences, which helps minimize clustering. Here is an analysis of how each collision resolution strategy performs when the load factor is high:
 
 1. **Chaining**:
-   - **Performance**: When the load factor is high, chaining leads to longer linked lists in each slot. This degrades the performance of insertion and searching operations from$O(1)$ to$O(n)$.
+   - **Performance**: When the load factor is high, chaining leads to longer linked lists in each slot. This degrades the performance of insertion and searching operations from $O(1)$ to $O(n)$.
      
    - **Issue**: Increased load factor leads to more frequent and longer chains, making operations less efficient.
 

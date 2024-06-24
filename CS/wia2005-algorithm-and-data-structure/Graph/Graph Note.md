@@ -25,7 +25,6 @@ Single Source Shortest Path (SSSP) algorithm finds the shortest paths from a sel
 - This process is repeated for all vertices, typically using a priority queue to efficiently select the next vertex with the smallest tentative cost.
 
 ## Bellman-Ford Algorithm
-
 The Bellman-Ford algorithm is more versatile and can handle graphs with ***negative edge weights*** and ***detect negative weight cycles***. It also uses the relaxation technique ($RELAX(u,v,w)$) but iterates through all edges of the graph multiple times.
 
 The Bellman-Ford algorithm performs $|V| - 1$ iterations, where $|V|$ is the number of vertices in the graph. In each iteration, it relaxes all edges. This guarantees that the shortest path to each vertex is found, even in the presence of negative edge weights.

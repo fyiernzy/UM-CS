@@ -16,7 +16,7 @@ Learning objective:
 5. What is open addressing? Why do we need a open addressing? How a open addressing is obtained/ implemented? How it is implemented to solve real-life problem? 
 6. <mark style="background: #FF5582A6;">What is dynamic set?</mark>
 
-Why including $1,2,\ldot,m-1$ can make sure every hash-table position is eventually a slot? Or in other word, how can 1,2,3...m-1 make sures that every slot is filled up?
+Why including $1,2,\ldots,m-1$ can make sure every hash-table position is eventually a slot? Or in other word, how can 1,2,3...m-1 make sures that every slot is filled up?
 
 When we delete a key from slot i, we cannot simply mark that slot as empty by storing NIL in it. If we did, we might be unable to retrieve any key k during whose insertion we had probed slot i and found it occupied. But why? What's the mechanism behind it?
 

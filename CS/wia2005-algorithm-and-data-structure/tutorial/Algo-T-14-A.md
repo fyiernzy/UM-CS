@@ -30,5 +30,3 @@
 
 5. **Priority Queue Optimization**:
    - When using a **priority queue** (e.g., a binary heap or Fibonacci heap), Prim's algorithm can achieve better performance with a time complexity of $O(E \log V)$, making it efficient for graphs with many edges but fewer vertices compared to the number of edges.
-
-In summary, Prim's algorithm is often preferred for dense graphs, graphs represented by adjacency matrices, or when an incremental approach to building the MST is desired. On the other hand, Kruskal's algorithm is generally more efficient for sparse graphs and graphs represented by edge lists.

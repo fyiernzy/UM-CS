@@ -1,16 +1,16 @@
-Stable/ Non-stable
+**Stable/ Non-stable**
 - A stable algorithm preserves the relative order of elements with equal keys (values) after sorting.
 - A non-stable algorithm does not preserve the relative order of elements with equal keys (values) after sorting.
 
-In-place/ Not in-place
+**In-place/ Not in-place**
 - An in-place algorithm does not require additional memory spaces for sorting.
 - A not in-place algorithm requires additional memory spaces for sorting.
 
-Adaptive/ Non-adaptive
+**Adaptive/ Non-adaptive**
 - An adaptive algorithm takes advantages of pre-sorted input array.
 - A non adaptive algorithm does not take advantages of pre-sorted input array.
 
-Online/ Offline
+**Online/ Offline**
 - An online algorithm does not requires all input to be available at the beginning of sorting.
 - An offline algorithm requires all input to be available at the beginning of  sorting.
 
@@ -40,25 +40,6 @@ Counting Sort
 Bucket Sort
 
 
-W8 - Hashing (Theory)
-Hash Collision 
-Probing
-Hash Table
-Hash Formula (Practice)
 
-W10 - Graph (1) (Practice)
-Adjacency Matrix
-Adjacency List
-Topological Sort (Practice !!! + Theory)
-DFS, BFS
 
----
 
-W14 - Graph (2)
-- Minimum Spanning Tree (Theory + Practice)
-	- Prim's vs Kruskal
-- Single Source Shortest Path Algorithm
-	- Dijkstra's algorithm
-	- Bellman-Ford algorithm
-- All pairs Shortest Path algorithm (Practice)
-	- Floyd-Warshall algorithm

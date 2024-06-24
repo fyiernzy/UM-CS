@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wia2005-algorithm-and-data-structure/summary/WIA2005-C8-Summary.md",
+                "file": "wia2005-algorithm-and-data-structure/tutorial/Algo-T-14-A.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "wia2005-algorithm-and-data-structure/summary/WIA2005-C8-Summary.md",
+                "file": "wia2005-algorithm-and-data-structure/tutorial/Algo-T-14-A.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "wia2005-algorithm-and-data-structure/summary/WIA2005-C8-Summary.md",
+                "file": "wia2005-algorithm-and-data-structure/tutorial/Algo-T-14-A.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "wia2005-algorithm-and-data-structure/summary/WIA2005-C8-Summary.md"
+                "file": "wia2005-algorithm-and-data-structure/tutorial/Algo-T-14-A.md"
               }
             }
           }
@@ -148,36 +148,41 @@
   },
   "active": "3c2c30ab83d7ddcb",
   "lastOpenFiles": [
-    "wia2005-algorithm-and-data-structure/summary/WIA2005-C7-Summary.md",
-    "wia2005-algorithm-and-data-structure/summary/WIA2005-C8-Summary.md",
-    "wia2005-algorithm-and-data-structure/summary/WIA2005-C3-Summary.md",
-    "wia2005-algorithm-and-data-structure/summary/WIA2005-C5-Summary.md",
+    "wia2005-algorithm-and-data-structure/tutorial/Algo-T-11-A.md",
+    "um-past-year-answers/Algorithm/WIA2005-PY2019.md",
+    "um-past-year-answers/Algorithm/WIA2005-PY2018.md",
+    "um-past-year-answers/Algorithm/WIA2005-PY2017.md",
+    "wia2005-algorithm-and-data-structure/summary/wia2005-c10,14.md",
+    "wia2005-algorithm-and-data-structure/graph/Minimum Spanning Tree.md",
+    "wia2005-algorithm-and-data-structure/tutorial/Algo-T-14-A.md",
+    "wia2005-algorithm-and-data-structure/tutorial/Algo-T-8-A.md",
+    "wia2005-algorithm-and-data-structure/divide-and-conquer/Limitation of Divide and Conquer.md",
+    "wia2005-algorithm-and-data-structure/summary/WIA2005-C8-Hash.md",
+    "um-past-year-answers/Operating-System/WIA2004_PY2018-2.md",
+    "wia2005-algorithm-and-data-structure/summary/WIA2005-C7-Randomization.md",
+    "Pasted image 20240624111308.png",
+    "wia2005-algorithm-and-data-structure/graph/Graph Note.md",
+    "@images/algo-mst-prim.png",
+    "Pasted image 20240624081551.png",
+    "@images/algo-mst-kruskal.png",
+    "wia2005-algorithm-and-data-structure/graph/Topological Sort.md",
+    "wia2005-algorithm-and-data-structure/graph/Prim's Algorithm (Eager).md",
+    "wia2005-algorithm-and-data-structure/summary/WIA2005-C3-Sorting.md",
+    "wia2005-algorithm-and-data-structure/summary/WIA2005-C5-DNC.md",
+    "@images/algo-open-hashing.png",
+    "wia2005-algorithm-and-data-structure/hash/Open Addressing.md",
+    "wia2005-algorithm-and-data-structure/hash/Double Hashing.md",
+    "wia2005-algorithm-and-data-structure/hash/QA - Hash - Extras.md",
+    "wia2005-algorithm-and-data-structure/hash/Quadratic Probing.md",
+    "wia2005-algorithm-and-data-structure/hash/Hash Function.md",
+    "wia2005-algorithm-and-data-structure/hash/Probing.md",
+    "wia2005-algorithm-and-data-structure/hash/Secondary Clustering.md",
+    "wia2005-algorithm-and-data-structure/hash/Hash Delete.md",
+    "wia2005-algorithm-and-data-structure/hash/Chaining.md",
     "Pasted image 20240623102209.png",
     "@images/randomized-select-pseudocode.png",
-    "wia2005-algorithm-and-data-structure/randomization/Relationship Between IRV, Random Variable, and Expected Value.md",
-    "wia2005-algorithm-and-data-structure/randomization/Expected Value of a Random Variable.md",
-    "wia2005-algorithm-and-data-structure/randomization/Order Statistic.md",
-    "wia2005-algorithm-and-data-structure/randomization/Principle of Linearity of Expectation.md",
-    "wia2005-algorithm-and-data-structure/randomization/Probabilistic Analysis.md",
-    "wia2005-algorithm-and-data-structure/randomization/Random Variable.md",
-    "wia2005-algorithm-and-data-structure/randomization/Randomized Algorithm.md",
-    "wia2005-algorithm-and-data-structure/randomization/Indicator Random Variable (IRV).md",
-    "wia2005-algorithm-and-data-structure/hash/QA - Hash - Extras.md",
-    "wia2005-algorithm-and-data-structure/tutorial/Algo-T-8-A.md",
-    "wia2005-algorithm-and-data-structure/tutorial/Algo-T-11-A.md",
-    "wia2005-algorithm-and-data-structure/tutorial/Algo-T-9-A.md",
-    "wia2005-algorithm-and-data-structure/graph/Graph Note.md",
-    "wia2005-algorithm-and-data-structure/graph/Graph.md",
-    "wia2005-algorithm-and-data-structure/summary/Sorting.md",
-    "wia2005-algorithm-and-data-structure/Untitled.md",
-    "wia2005-algorithm-and-data-structure/sorting/Heapsort.md",
-    "wia2005-algorithm-and-data-structure/Load factor.md",
     "wia2005-algorithm-and-data-structure/sorting",
-    "wia2005-algorithm-and-data-structure/graph/Minimum Spanning Tree.md",
     "wia2005-algorithm-and-data-structure/tutorial",
-    "wia2005-algorithm-and-data-structure/divide-and-conquer/Pros and Cons of Heapsort.md",
-    "wia2005-algorithm-and-data-structure/divide-and-conquer/Heapsort.md",
-    "wia2005-algorithm-and-data-structure/divide-and-conquer/Divide and Conquer.md",
     "wia2005-algorithm-and-data-structure/divide-and-conquer",
     "wia2005-algorithm-and-data-structure/summary",
     "wia2004-operating-system/WIA2004",
@@ -185,11 +190,6 @@
     "wia2004-operating-system",
     "@images/WIA2004-2020-1-Q4.png",
     "@images/WIA2004-2020-1-Q3B.png",
-    "@images/WIA2004-2020-1-Q2A.png",
-    "@images/WIA2004-2020-1-Q3A.png",
-    "@images/WIA2004-2020-1-Q2B.png",
-    "Pasted image 20240620140658.png",
-    "Pasted image 20240620115949.png",
     "web",
     "interview",
     "UM/Operating-System",

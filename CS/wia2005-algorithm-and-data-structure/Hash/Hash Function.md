@@ -58,7 +58,7 @@ Therefore, we should avoid $m = 2^p$. A prime number not too close to an exact p
 The hash function implemented using the multiplication method is as follows:
 $$h(k) = \lfloor m \cdot \text{frac}(k \cdot A) \rfloor$$
 or
-$$h(k) = \lfloor m \cdot [\text{frac}(k \cdot A) \mod 1] \rfloor$$
+$$h(k) = \lfloor m \cdot \left(\text{frac}(k \cdot A)\ \text{mod}\ 1\right) \rfloor$$
 
 where 
 $$\text{frac}(k \cdot A) = k \cdot A - \lfloor k \cdot A \rfloor$$
