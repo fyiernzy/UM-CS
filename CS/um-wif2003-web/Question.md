@@ -1,3 +1,11 @@
+| Token-based authentication | Enables stateless communication between the client and the server, reducing the risk of ***session hijacking***. |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+Enforces HTTPS encryption for all communication between the client and server protects data from ***eavesdropping and tampering***
+
+
+Security Headers: Use security headers like ***X-Content-Type Options*** and ***X-Frame-Option***s adds an extra layer of protection against common web vulnerabilities like ***MIME-type sniffing and clickjacking***
+
+
 *(Why? How? What is DOM and Virtual DOM?)*
 Props drilling
 Controlled components (Definition?)
@@ -63,3 +71,9 @@ includes built-in type casting, validation, query building, business logic hooks
 A schema maps to a MongoDB collection and defines the structures of the documents within that collection, including ***casting properties***.
 
 Permitted `SchemaTypes` include String, Number, Date, ***Buffer, Mixed***, ObjectId, Array
+
+## 3.1 - Input validation and Sanitization
+- *How are they perform? They look sames*
+Use parameterized queries in database operations to **prevent SQL injection** attacks by separating SQL code from user input.
+
+Implements ***multi-factor authentication (MFA)***
