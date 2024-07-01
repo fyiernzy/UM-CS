@@ -11,6 +11,8 @@
 7. Acts as an a reference for other phases of the software development process, ensuring that design, development and testing are aligned with the requirement.
 8. Provides a basis for scheduling , resource allocation and risk management.
 
+// Books pg 59
+
 ## Q1.b)
 - An ambiguously documented requirement lacks necessary details and descriptions, causing misinterpretations among different stakeholders.
 - *(Lecture 7, pg. 17)* Causes of Ambiguous Requirements
