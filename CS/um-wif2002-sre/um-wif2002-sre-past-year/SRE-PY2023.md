@@ -92,3 +92,76 @@ Questionnaires
 		- "Imagine we are playing a civilization game. Initially, the kingdom has experienced a war. Everyone in the kingdom is disunited, dissatisfied, and resources are scarce. Your goal is to revitalize the kingdom, ensuring everyone is content and prosperous. From the player's perspective, where you can assist the king indirectly, for example, by building a castle, what can we do to help the kingdom thrive?"
 - Prototyping
 	- Build a prototype using tools like Figma for designing user interfaces and Protopie for user interactions, allowing stakeholders to quickly see how the system (GreenLife) would look and how they can interact with it.
+
+## Q4.c)
+For examples, please refer back to Q4.b).
+
+- Interviewing stakeholders
+	- Advantages:
+		- Can collect numerous responses at a low cost
+		- Ideal for identifying basic factors
+		- Can be widely distributed, covering diverse regions and reaching a broad audience.
+	- Disadvantages
+		- Limited to known questions
+		- Further inquiries are impossible
+
+- Analogy
+	- Advantages:
+		- Ideal for discovering delighters/ excitement factors
+	- Disadvantages
+		- Difficult to find a suitable analogy
+	
+- Prototyping
+	- Advantages:
+		- Provides a quick overview of the product's appearance and functionality.
+		- Allows for the discovery of errors and inconsistencies in requirements at an early stage.
+		- Reduces the understanding gap among stakeholders.
+		- Encourages the generation of creative solutions to problems through visual representation.
+	- Disadvantages
+		- Developing a prototype is time-consuming
+		- Not feasible when requirements or detailed descriptions are lacking.
+		- Can be costly in terms of effort.
+
+## Q4.d)
+**Functional Requirements**
+- The system shall display eco-friendly products in a 3 X 3 grid system. Each cell in the grid should contain a product image, product name, price, rating and origin.
+- The system shall provide customers with the ability to scroll through eco-friendly products indefinitely on the vertical axis.
+
+**Non-Functional Requirements**
+- The system shall encrypt all user data using secure algorithm such as bcrypt.
+- The system shall authenticate the user's identities and authorize them correctly by assigning the appropriate access level to prevent unauthorized access or transactions.
+
+**Constraint Requirement**
+- The website shall be built using Django web framework.
+
+## Q4.e)
+Complete
+
+| Req. ID | Description                                                                                                                                                  | Version | Requirement Type           | Kano Type    |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- | -------------------------- | ------------ |
+| 1.1.1.0 | The system shall display eco-friendly products in a 3x3 grid. Each cell in the grid should contain a product image, product name, price, rating, and origin. | 1.0     | Functional Requirement     | Satisfier    |
+| 1.2.1.0 | The system shall provide customers with the ability to scroll through eco-friendly products indefinitely on the vertical axis.                               | 1.0     | Functional Requirement     | Dissatisfier |
+| 2.1.1.0 | The system shall encrypt all user data using a secure algorithm such as bcrypt.                                                                              | 1.0     | Non-Functional Requirement | Dissatisfier |
+| 3.1.1.0 | The website shall be built using the Django web framework.                                                                                                   | 1.0     | Constraint Requirement     | Satisfier    |
+
+
+
+Customer
+
+| Req. ID | Description                                                                                                                                                  | Version | Requirement Type       | Kano Type    |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- | ---------------------- | ------------ |
+| 1.1.1.0 | The system shall display eco-friendly products in a 3x3 grid. Each cell in the grid should contain a product image, product name, price, rating, and origin. | 1.0     | Functional Requirement | Satisfier    |
+| 1.2.1.0 | The system shall provide customers with the ability to scroll through eco-friendly products indefinitely on the vertical axis.                               | 1.0     | Functional Requirement | Dissatisfier |
+
+Developers/ Testers/ Software Requirement Engineers/ Project Managers
+
+| Req. ID | Description                                                                                                                                                  | Version | Requirement Type           | Kano Type    |
+| ------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------- | -------------------------- | ------------ |
+| 1.1.1.0 | The system shall display eco-friendly products in a 3x3 grid. Each cell in the grid should contain a product image, product name, price, rating, and origin. | 1.0     | Functional Requirement     | Satisfier    |
+| 1.2.1.0 | The system shall provide customers with the ability to scroll through eco-friendly products indefinitely on the vertical axis.                               | 1.0     | Functional Requirement     | Dissatisfier |
+| 2.1.1.0 | The system shall encrypt all user data using a secure algorithm such as bcrypt.                                                                              | 1.0     | Non-Functional Requirement | Dissatisfier |
+| 3.1.1.0 | The website shall be built using the Django web framework.                                                                                                   | 1.0     | Constraint Requirement     | Satisfier    |
+## Q4.f)
+1. The Kano classification categorizes requirements into dissatisfiers, satisfiers, and delighters. Dissatisfiers are given the highest priority, satisfiers the next, and delighters the lowest.
+2. The one-criterion classification method selects one criterion and allows stakeholders to assign points to each requirement based on the chosen criterion.
+3. The top-ten method selects multiple criteria, assigns weights to each, and asks stakeholders to assign points to the requirements based on each criterion. The ranking points are then summed, with requirements having higher ranking points being prioritized.
