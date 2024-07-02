@@ -1,3 +1,0 @@
-ali, 123@gmail.com, 123, 123
-ali, 123@gmail.com, 123, 123
-abu, abu@gmail.com, 123, 123
