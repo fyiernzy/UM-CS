@@ -1,33 +1,70 @@
+You are a professional full stack developer with deep knowledge in web development. You'll be given a list of question enclosed in triple quotation mark. You task is to answer these question in point from. Keep the answer short yet clear.
 ### N1 - React
 
-1. What is React, and what makes it unique?
-2. How do you create a React application?
-3. What is the virtual DOM, and how does it function in React?
-4. How does React build its virtual DOM, and why does it outperform the traditional DOM?
-5. Define the DOM (Document Object Model).
-6. What does "rendering" mean in the context of web development?
-7. What are Single Page Applications (SPAs), and what are their advantages and disadvantages?
-8. What is the role of `index.js` in a React application?
-9. How does React render HTML to a webpage?
-10. What is JSX, and what is its function in React?
-11. Define a component in React.
-12. What are props in React, and what is their function?
-13. Explain prop drilling in React.
-14. What is state in React, and how does it affect a SPA?
-15. What are the rules for using hooks in React?
-16. What is the `useState` hook, and how is it used?
-17. What are the core principles of React?
-18. What are controlled components in React?
-19. Briefly explain the Client-Server Model, its advantages, and disadvantages.
-20. What are alternative models to the Client-Server Model?
-21. List and explain 7 common HTTP status codes.
-22. What are HTTP and HTTPS, and what are their differences?
-23. Explain the concept of Separation of Concerns in software development.
-24. What are the types of persistent data storage?
-25. Define event subscription, entities, and static destination.
-26. What is a RESTful API?
-27. What is the difference between stateful and stateless systems?
+1. **What is React, and what makes it unique?**
+	1. React is a JavaScript library developed by Facebook for building user interfaces. 
+	2. React allows developers to create reusable components and combine them into pages.
+2. **How do you create a React application?**
+	1. **Create React App (CRA)**: `npx create-react-app my-app`
+	2. **Vite**:  `npm create vite@latest
+	3. **Next.js**: `npx create-next-app myapp`
 
+| Feature/Aspect        | Create React App (CRA)                           | Vite                                  | Next.js                                      |
+|-----------------------|--------------------------------------------------|---------------------------------------|----------------------------------------------|
+| **Purpose**           | Quick setup for React apps                       | Modern build tool and development server | React framework with SSR and static generation |
+| **Initial Setup**     | Simple, opinionated                              | Simple, fast                          | Simple, opinionated                          |
+| **Command to Create** | `npx create-react-app my-app`                    | `npm init vite@latest my-app`         | `npx create-next-app my-app`                 |
+| **Build Speed**       | Moderate                                         | Fast                                  | Moderate                                     |
+| **Development Speed** | Moderate                                         | Fast, optimized                       | Moderate                                     |
+| **SSR Support**       | No                                               | No                                    | Yes                                          |
+| **Static Site Generation** | No                                           | No                                    | Yes                                          |
+| **Configuration**     | Minimal configuration needed                     | Minimal configuration needed          | Pre-configured with extensive options        |
+| **Plugins/Extensions**| Limited, requires ejecting for deep customization| Flexible with plugin ecosystem        | Rich ecosystem with built-in features        |
+| **Hot Module Replacement (HMR)** | Yes                                    | Yes, faster HMR                       | Yes                                          |
+| **Routing**           | Manual (react-router)                            | Manual (react-router)                 | Built-in routing                             |
+| **API Routes**        | No                                               | No                                    | Yes                                          |
+| **Build Output**      | Optimized for production                         | Optimized for production              | Optimized for production, server-side or static |
+| **TypeScript Support**| Yes (with template)                              | Yes                                   | Yes                                          |
+| **Learning Curve**    | Low                                              | Low                                   | Moderate                                     |
+| **Use Case**          | Simple to moderately complex SPA                 | High-performance development for SPA  | Complex applications with SSR and static needs|
+
+- CRA is great for beginners and simple apps
+- Vite offers speed and flexibility
+- Next.js is ideal for more complex applications that benefit from SSR and static site generation.
+
+3. **What is the virtual DOM, and how does it function in React?**
+	4. A virtual DOM is an in-memory representation of the real DOM.
+	5. React updates the virtual DOM and syncs it with the real DOM, updated only the changed elements and minimizes direct manipulations.
+4. How does React build its virtual DOM, and why does it outperform the traditional DOM?
+   
+5. **Define the DOM (Document Object Model) and explain its function with examples.**
+	1. **Definition**: 
+		1. DOM is a programming interface for web documents representing the structure of HTML or XML.
+	2. Function:
+		1. **Structure Representation**
+			1. Provides a structured representation of the document's content, allowing it to be manipulated programmatically.
+			2. Models HTML and XML documents as a tree of nodes, where each node represents an element, attribute, text, or other components of the document. ![[Pasted image 20240630105543.png]]
+		2. **Interaction**
+			1. Allows scripts (such as JavaScript) to access and update the content, structure, and style of a document dynamically.
+			2. Provides methods to traverse the tree, find elements, modify elements, and handle events.
+		3. **Dynamic Content**
+			1. Enables the creation of dynamic web pages by allowing developers to change the document's structure, content, and style without reloading the page.
+			2. Essential for creating interactive web applications, such as single-page applications (SPAs).
+		4. **Event Handling**:
+			1. Provides a way to capture and handle events (e.g., clicks, input changes, mouse movements) through event listeners and handlers.
+			2. Allows developers to create responsive and interactive user interfaces.
+	3. Examples:
+	   ```html
+	   <html> <head> <title>Example Page</title> </head> <body> <h1>Hello, World!</h1> <p>This is an example.</p> </body> </html>
+		```
+	- The DOM for this document would represent the hierarchy of elements:
+	
+		- Root node: `<html>`
+		- Child nodes: `<head>` and `<body>`
+		- `<head>` has a child node `<title>`, containing the text "Example Page".
+		- `<body>` has two child nodes: `<h1>` and `<p>`, each containing their respective text nodes.
+	
+1
 ### N2 - Backend
 
 1. Briefly define MongoDB, Express.js, React.js, and Node.js.

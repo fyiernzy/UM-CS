@@ -5,7 +5,7 @@
 ## 1.1 - Database
 - A database is a collection of information/ data. 
 - It provides an interface for performing CRUD operations (Create, Read, Update, Delete)
-- Examples: PostgreSQL, MySQL, Reddit, SQLite, MongoDB.
+- Examples: PostgreSQL, MySQL, Reddis, SQLite, MongoDB.
 
 ## 1.2 - SQL vs NoSQL
 | SQL                                          | NoSQL                                                    |
