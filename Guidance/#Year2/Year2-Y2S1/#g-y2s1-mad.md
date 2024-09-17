@@ -1,0 +1,21 @@
+- MAD
+  - 我讨厌这课的主要原因是我电脑跑不动 Android Studio。
+  - 虽然现在 Kotlin 和 functional programming 越来越夯，但个人还是推荐用 `XML` 入门，虽然费时费电脑，但好入门。
+  - 这门课也因配置（Configuration）繁杂而臭名昭著。身为小白，映入眼帘的就是眼花缭乱的文件夹（Directory，俗称 `dir`）。`res/` 目录下就有：
+    - `drawable/` 存放图片
+    - `layout/` 存放布局，也就是你的 frontend
+    - `values/` 存放常量（Constants）
+    - `color/` 存放颜色数值
+    - `menu/` 存放菜单（Menu）
+    - `font/` 存放字体
+  - 此外还有 `nav/`, `anim/` 等文件夹。可见他对初学者是十分的不友好。虽然但是，入门的话直接看 `layout/` 就好了。它是一切梦魇的起点。
+  - 做 Assignment、备考 Coding 和 备考 Theory 时十分不同的体验。
+  - 做 Assignment 时，直接用 chatGPT 就好了。这是因为完整 Assignment 所涉猎的知识点过于繁杂，比如 Firebase, API, `RecyclerView`, pagination 等。加上自身也是初学，因此当一个 prompt engineer 也没什么好羞耻的。鄙人认为：**做 Assignment 重在让自己打开眼界**。
+  - 然而，备考 Coding 时，重在掌握。若课程没有大改动，那需要掌握的知识点有三个：Design & Basic Flow, Menu & Navigation 和 Database。
+    - Design & Basic Flow 就是考察你会不会用 Constraint Layout，会不会 Define 那些 values，会不会 Define Java 端。
+    - Menu & Navigation/ Database 顾名思义，不加赘注。
+  - 个人认为，
+    - Menu & Navigation/ Database 只要把 Practical 做好、吃透原理、再完成 Past Year，基本问题不大。可以让 chatGPT 生成几个问题让你练手。
+    - Design & Basic Flow 可以看 [UiLover Android](https://www.youtube.com/@UiLover) 这位 Youtube 博主。他的大部分视频都有提供素材（Resources）进行练习。而且他真的把所有步骤清晰列明。跟着做几个 Project 就能掌握了 XML 的基本内涵。
+    - 补充：可以看 `ViewBinding`。我只怪相见恨晚，只怪一见 `findViewById` 误终身。
+  - 备考 Theory，可以看我的 GDrive Note。虽然也不完整，但好说歹说也提供了比较完整的笔记，且方便索引。
