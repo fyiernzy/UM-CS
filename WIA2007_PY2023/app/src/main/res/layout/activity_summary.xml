@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTotalTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="24dp"
+        android:text="Total Amount of Drink"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTotalAmountDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="50ml"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@+id/tvTotalTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvTotalTitle" />
+
+    <TextView
+        android:id="@+id/tvSubtotalTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="Amount for each drink"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvTotalTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvTotalTitle" />
+
+    <TextView
+        android:id="@+id/tvRecordTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="156dp"
+        android:text="Record"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvSubtotalTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvSubtotalTitle" />
+
+    <TextView
+        android:id="@+id/tvPWSubtotal"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Plain Water"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/tvSubtotalTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvSubtotalTitle" />
+
+    <TextView
+        android:id="@+id/tvNSSubtotal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Non-\nsweetened"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvPWSubtotal"
+        app:layout_constraintStart_toEndOf="@+id/tvPWSubtotal"
+        app:layout_constraintTop_toTopOf="@+id/tvPWSubtotal"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/tvSSubtotal"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="Sweeten-\ned"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvNSSubtotal"
+        app:layout_constraintStart_toEndOf="@+id/tvNSSubtotal"
+        app:layout_constraintTop_toTopOf="@+id/tvNSSubtotal" />
+
+    <TextView
+        android:id="@+id/tvPWAmountDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="50ml"
+        app:layout_constraintStart_toStartOf="@+id/tvPWSubtotal"
+        app:layout_constraintTop_toBottomOf="@+id/tvPWSubtotal" />
+
+    <TextView
+        android:id="@+id/tvNSAmountDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50ml"
+        app:layout_constraintBottom_toBottomOf="@+id/tvPWAmountDisplay"
+        app:layout_constraintStart_toStartOf="@+id/tvNSSubtotal"
+        app:layout_constraintTop_toTopOf="@+id/tvPWAmountDisplay" />
+
+    <TextView
+        android:id="@+id/tvSAmountDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50ml"
+        app:layout_constraintBottom_toBottomOf="@+id/tvNSAmountDisplay"
+        app:layout_constraintStart_toStartOf="@+id/tvSSubtotal"
+        app:layout_constraintTop_toTopOf="@+id/tvNSAmountDisplay" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRecordDisplay"
+        android:layout_width="409dp"
+        android:layout_height="314dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="@+id/tvRecordTitle"
+        app:layout_constraintTop_toBottomOf="@+id/tvRecordTitle"
+        tools:listitem="@layout/item_record" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
