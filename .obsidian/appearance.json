@@ -1,1 +1,5 @@
-{}
+{
+  "baseFontSizeAction": true,
+  "textFontFamily": "Consolas",
+  "baseFontSize": 19
+}

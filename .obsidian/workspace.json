@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Guidance/@beginner/3 - 下载 Maven.md",
+                "file": "1_courses/um-y3s2-wic2008-iot/wic2008-py2022_23_s2-expl.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "wic2008-py2022_23_s2-expl"
             }
           }
         ]
@@ -38,8 +40,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +59,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +69,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Guidance/@beginner/3 - 下载 Maven.md",
+                "file": "1_courses/um-y3s2-wic2008-iot/wic2008-py2022_23_s2-sol.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +102,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for wic2008-py2022_23_s2-sol"
             }
           },
           {
@@ -102,10 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Guidance/@beginner/3 - 下载 Maven.md",
+                "file": "1_courses/um-y3s2-wic2008-iot/wic2008-py2022_23_s2-sol.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from wic2008-py2022_23_s2-sol"
             }
           },
           {
@@ -115,8 +128,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Guidance/@beginner/3 - 下载 Maven.md"
-              }
+                "file": "1_courses/um-y3s2-wic2008-iot/wic2008-py2022_23_s2-sol.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of wic2008-py2022_23_s2-sol"
             }
           }
         ]
@@ -149,27 +171,50 @@
   },
   "active": "5afa82a469e3ad1f",
   "lastOpenFiles": [
-    "Guidance/@beginner/4 - 下载 JDK.md",
+    "1_courses/um-y3s2-wic2008-iot/imgs/Pasted image 20250707143152.png",
+    "1_courses/um-y3s2-wic2008-iot/wic2008-py2022_23_s2-sol.md",
+    "1_courses/um-y3s2-wic2008-iot/imgs",
+    "1_courses/um-y3s2-wic2008-iot/wic2008-py2022_23_s2-expl.md",
+    "1_courses/um-y3s2-wic2008-iot/imgs/Pasted image 20250707180633.png",
+    "1_courses/um-y3s2-wic2008-iot/imgs/Pasted image 20250707175919.png",
+    "1_courses/um-y3s2-wic2008-iot/imgs/Pasted image 20250707164457.png",
+    "1_courses/um-y3s2-wic2008-iot/imgs/Pasted image 20250707164052.png",
+    "1_courses/um-y3s2-wic2008-iot/imgs/Pasted image 20250707145308.png",
+    "1_courses/um-y3s2-wic2008-iot/imgs/Pasted image 20250707145249.png",
+    "1_courses/um-y3s2-wic2008-iot/imgs/Pasted image 20250707144604.png",
+    "1_courses/um-y3s2-wic2008-iot/imgs/Pasted image 20250707144535.png",
+    "1_courses/um-y3s2-wic2008-iot/wic2008-py2023_24_s2-expl.md",
+    "1_courses/um-y3s2-wic2008-iot/wic2008-py2023_24_s2-sol.md",
     "README.md",
-    "Guidance/@beginner/@images/3-maven-install-10.png",
-    "Guidance/@beginner/@images/3-maven-install-9.png",
-    "Guidance/@beginner/@images/3-maven-install-8.png",
-    "Guidance/@beginner/@images/3-maven-install-7.png",
-    "Guidance/@beginner/@images/3-maven-install-6.png",
-    "Guidance/@beginner/@images/3-maven-install-5.png",
-    "Guidance/@beginner/@images/3-maven-install-4.png",
-    "Guidance/@beginner/@images/3-maven-install-3.png",
-    "Guidance/@beginner/@images/3-maven-install-2.png",
-    "Guidance/@beginner/@images/3-maven-install-1.png",
+    "CS/#CS/Alibaba.md",
+    "CS/#CS/cs-missing-semester/The Shell.md",
+    "CS/#CS/cs-missing-semester/`chmod`.md",
+    "3_techni/4 - 下载 JDK.md",
+    "3_techni/git-init-guide.md",
+    "3_techni/maven-init-guide.md",
+    "3_techni/Untitled.md",
+    "0_imgs/wia2001-chatgpt.png",
+    "3_techni/1 - 下载 VSCode.md",
+    "2_misc/y2s2-wif2003.md",
+    "Guidance/year2/README.md",
+    "2_misc/y3s2-README.md",
+    "2_misc/y2s2-README.md",
+    "2_experiences/Untitled",
+    "2_misc/y2s1-wia2006.md",
+    "2_misc/y2s1-README.md",
+    "2_misc/y2s1-wia2001.md",
+    "3_techni",
+    "2_misc",
+    "CS/#CS/cs-java/Multithreading.md",
+    "CS/#CS/cs-web/Rendering Pattern.md",
+    "1_courses",
+    "1_courses/um-y3s2-wic2008-iot",
+    "Guidance/@beginner/4 - 下载 JDK.md",
     "Guidance/@beginner/3 - 下载 Maven.md",
     "Guidance/@beginner/2 - 下载 Git.md",
-    "Guidance/@beginner/1 - 下载 VSCode.md",
     "Guidance/@beginner/@images",
-    "CS/#Book/java-web-programming/C1.md",
     "Guidance/@beginner",
-    "CS/#Book/Untitled.md",
     "CS/#Book/java-web-programming",
-    "CS/#CS/cs-java/Multithreading.md",
     "CS/#Book"
   ]
 }

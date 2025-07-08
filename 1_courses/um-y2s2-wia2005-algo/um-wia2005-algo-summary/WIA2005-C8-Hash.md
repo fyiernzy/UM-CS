@@ -58,7 +58,7 @@ A **good hash function** satisfies, or approximately satisfies, the assumption o
 
 **Direct Addressing** accesses an arbitrary position in an array in $O(1)$ time by using direct indexing.
 
-![open-hashing](@images/algo-open-hashing.png)
+![open-hashing](algo-open-hashing.png)
 
 **Primary clustering** is a situation where hash collision occurs frequently on a specific hash value, causing probing takes more time gradually and finally resulting in $O(n)$ probing time.
 
