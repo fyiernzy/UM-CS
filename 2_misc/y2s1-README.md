@@ -10,8 +10,6 @@
 - WIX2002 Project Management (PM)
 - GIG1003 Entrepreneurship
 
-其中，个人认为 TCS, PM 和 SM 皆为水课，因此不必花费太多心力。但这些课程的内容的确让人受用无穷，可在日后反复参阅。
-
 - TCS：
   - 基本只需烦恼 Assignment。找到好队友就少一点忧愁。
   - 考前还是需要翻阅 Lecture Note 的，有时间的话刷一遍 Past Year；更有时间的话可以做 Note 来背。
@@ -23,6 +21,3 @@
 - SM
   - 学会画 Diagram 才是重中之重，比如 Use Case (with Description), Class, Activity 和 Sequence。他们基本属于必考题。
   - 2023/2024 没考 Theory。
-- Entre
-  - 我没印象我做过什么...
-

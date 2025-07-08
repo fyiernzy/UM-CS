@@ -10,9 +10,6 @@
 - WIF2003 Web Programming
 - WIF3009 Python for Scientific Computing
 
-## 水课介绍
-
-个人认为 Info, Talent 和 Python 皆为水课，因此便统一介绍。
 
 - Info
   - Assignment 分成 Individual 和 Group。
@@ -38,15 +35,4 @@
     - Visualization (`Seaborn`, `Matplotlib`)
     - Machine Learning (`Tensorflow` & `Scikit-Learn`)
     - Probability (`scipy`)
-  - 甚至我觉得 ML 和 SPSS 都比这门课要难🤣
   - Assignment 和 ML 一样：找出数据集（Dataset）然后进行数据分析（Exploratory Data Analysis, EDA），数据工程（Feature Engineering）和模型训练（Model Training），只是还需要做一个 UI 展现 Model 的能力。
-  - 一言以蔽之：如果没有 Final，那他就是一个简单版的 WIA1007。
-  - 个人觉得不需要做 Tutorial🤣
-
-- OS
-- Algo
-- SRE
-
-
-
-老实说我觉得大一大二学的东西都很有帮助。
