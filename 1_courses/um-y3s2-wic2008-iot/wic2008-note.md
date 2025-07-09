@@ -2,7 +2,7 @@
 ---
 ### 1.1. lab2.2.2.6
 
-![](../../wic2008-code-compilation-1752022135642.png)
+![](imgs/wic2008-code-compilation-1752022135642.png)
 
 ```c++
 // Ver 1
@@ -75,7 +75,7 @@ void loop()
 
 这题只要理解了底层原理，那其实也不难，可以看 wic2008-iot.excalidraw 的逐步拆解。
 
-![](../../wic2008-code-compilation-1752024070841.png)
+![](imgs/wic2008-code-compilation-1752024070841.png)
 
 ```javascript
 // C++ code
@@ -115,7 +115,7 @@ void loop()
 ```
 ### 1.3. lab2.2.4.2
 
-![[Pasted image 20250709082430.png]]
+![](imgs/wic2008-code-compilation-20250709082430.png)
 
 ```c++
 // C++ code
@@ -168,7 +168,7 @@ int map(int flex, int min, int max) {
 
 ### 1.4. lab2.3.1.2
 
-![](wic2008-code-compilation-1752021894768.png)
+![](imgs/wic2008-code-compilation-1752021894768.png)
 ```javascript
 from gpio import *
 from time import *
@@ -237,7 +237,7 @@ void loop() {
 
 
 ### 1.5. lab2.2.4.3
-![[wic2008-code-compilation-1752021323731.png]]
+![](wic2008-code-compilation-1752021323731.png)
 
 
 ```c++
@@ -267,7 +267,7 @@ void loop()
 IoE: Internet of Everything
 
 ### 2.1. lab-connecting 2 mcu
-![[Pasted image 20250708213302.png]]
+![](wic2008-code-compilation-20250708213302.png)
 
 
 一些经验（待验证）
@@ -512,7 +512,7 @@ function setup() {
 
 ### 2.2. prac-1
 
-![](../../wic2008-code-compilation-1752041397277.png)
+![](imgs/wic2008-code-compilation-1752041397277.png)
 
 题目：通过 Laptop 或者 Toggle Push Button 来开关 Light。
 
@@ -558,7 +558,7 @@ function setLightStatus(isOn) {
 ```
 
 ### 2.3. prac-2
-![](../../wic2008-code-compilation-1752044091899.png)
+![](imgs/wic2008-code-compilation-1752044091899.png)
 
 题目：A factory installs *Fire Detector* (**Smoke ppm**) and a *Fire Alarm* (40 dB buzzer). The alarm must sound automatically when smoke ≥ 300 ppm. Operators can also silence or test the alarm from the Gateway UI.
 
@@ -675,7 +675,7 @@ function setAlarmStatus(on) {
 }
 ```
 
-![](../../wic2008-code-compilation-1752044111555.png)
+![](imgs/wic2008-code-compilation-1752044111555.png)
 
 ## 3. GPIO
 ### 3.1. w10-lab3.2.5.14
@@ -1090,7 +1090,7 @@ conn.close();
 
 **What are the differences between GPIO.BCM and GPIO.BOARD?**
 
-![](../../wic2008-code-compilation-1752056211658.png)
+![](imgs/wic2008-code-compilation-1752056211658.png)
 
 | GPIO.BCM                                                                                                                              | GPIO.BOARD                                                                                                            |
 | ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
@@ -1111,9 +1111,9 @@ conn.close();
 
 ### w13-lab6.3.2.3
 
-![Revision Activity 2024/2025](../../wic2008-code-compilation-1752066484906.png)
+![Revision Activity 2024/2025](imgs/wic2008-code-compilation-1752066484906.png)
 
-![Revision Activity 2024/2025](../../wic2008-code-compilation-1752068289557.png)
+![Revision Activity 2024/2025](imgs/wic2008-code-compilation-1752068289557.png)
 
 - **Motion Sensor**: To detect motion and send analog data to the SBC
 - **Sound Sensor**: To detect sound and send analog data to the SBC
@@ -1189,7 +1189,7 @@ def main():
 if __name__ == '__main__':
 	main()
 ```
-![lab6.3.2.4 概览](../../wic2008-code-compilation-1752065830922.png)
+![lab6.3.2.4 概览](imgs/wic2008-code-compilation-1752065830922.png)
 
 The network topology is designed to simulate a home which is connected to the Internet via a DSL-based Internet Service Provider (ISP).
 
@@ -1199,7 +1199,7 @@ The wireless router is also connected to the WAN via a DSL modem which in turn c
 
 The Public WiFi Router is added to represent free Internet connections through the city. Think of it as wireless hot spots present in libraries, coffee shops, workplaces, and more. The key here is that the user will also have a connection to the Internet.
 
-![lab6.3.2.4 Internet 构造](../../wic2008-code-compilation-1752065954143.png)
+![lab6.3.2.4 Internet 构造](imgs/wic2008-code-compilation-1752065954143.png)
 
 ```python
 from tcp import *
@@ -1305,4 +1305,3 @@ Because button is either one or zero.
 
 **Why do we add delay?**
 To make the output be more visible
-

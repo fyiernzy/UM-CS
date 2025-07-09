@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3e15b022d66f14ba",
+        "id": "f47b8b9c9109994d",
         "type": "tabs",
         "children": [
           {
-            "id": "5afa82a469e3ad1f",
+            "id": "30ac061a8ae78c8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,6 +19,30 @@
               },
               "icon": "lucide-file",
               "title": "wic2008-note"
+            }
+          },
+          {
+            "id": "7dc84096d0813abf",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-20250708213302.png"
+              },
+              "icon": "lucide-image",
+              "title": "wic2008-code-compilation-20250708213302"
+            }
+          },
+          {
+            "id": "b6d3d5289dd135af",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-20250709082430.png"
+              },
+              "icon": "lucide-image",
+              "title": "wic2008-code-compilation-20250709082430"
             }
           }
         ]
@@ -41,7 +65,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -169,8 +193,13 @@
       "obsidian-trim-whitespace:Trim whitespace": false
     }
   },
-  "active": "c68c8287d5533109",
+  "active": "30ac061a8ae78c8f",
   "lastOpenFiles": [
+    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-20250708213302.png",
+    "1_courses/um-y3s2-wic2008-iot/wic2008-note.md",
+    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-20250709082430.png",
+    "imgs/Pasted.md",
+    "imgs",
     "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752066484906.png",
     "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752065954143.png",
     "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752065940694.png",
@@ -180,10 +209,7 @@
     "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752044091899.png",
     "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752041397277.png",
     "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752024070841.png",
-    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752022135642.png",
-    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752021894768.png",
     "README.md",
-    "1_courses/um-y3s2-wic2008-iot/wic2008-note.md",
     "2_misc/y2s1-README.md",
     "1_courses/um-y3s2-wic2008-iot/wic2008-py2022_23_s2-sol.md",
     "1_courses/um-y3s2-wic2008-iot/wic2008-py2022_23_s2-expl.md",
@@ -206,7 +232,6 @@
     "1_courses/um-y2s2-wia2005-algo/um-wia2005-algo-note/divide-and-conquer/Divide and Conquer.md",
     "2_misc/y2s1-wia2001.md",
     "2_misc/y3s2-README.md",
-    "2_misc/y2s2-wif2003.md",
     "1_courses/um-y3s2-wic2008-iot/imgs",
     "2_experiences/Untitled",
     "3_techni",
@@ -215,7 +240,6 @@
     "1_courses/um-y3s2-wic2008-iot",
     "Guidance/@beginner/@images",
     "Guidance/@beginner",
-    "CS/#Book/java-web-programming",
-    "CS/#Book"
+    "CS/#Book/java-web-programming"
   ]
 }
