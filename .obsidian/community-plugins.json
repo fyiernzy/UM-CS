@@ -1,5 +1,7 @@
 [
   "obsidian-trim-whitespace",
   "obsidian-auto-link-title",
-  "image-converter"
+  "image-converter",
+  "obsidian-title-index",
+  "floating-toc"
 ]

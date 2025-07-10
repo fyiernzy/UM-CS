@@ -8,41 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "30ac061a8ae78c8f",
+            "id": "7dc84096d0813abf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1_courses/um-y3s2-wic2008-iot/wic2008-note.md",
+                "file": "1_courses/um-y3s2-wic2008-iot/wic2008-py2223-sol.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "wic2008-note"
-            }
-          },
-          {
-            "id": "7dc84096d0813abf",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-20250708213302.png"
-              },
-              "icon": "lucide-image",
-              "title": "wic2008-code-compilation-20250708213302"
-            }
-          },
-          {
-            "id": "b6d3d5289dd135af",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-20250709082430.png"
-              },
-              "icon": "lucide-image",
-              "title": "wic2008-code-compilation-20250709082430"
+              "title": "wic2008-py2223-sol"
             }
           }
         ]
@@ -193,11 +169,20 @@
       "obsidian-trim-whitespace:Trim whitespace": false
     }
   },
-  "active": "30ac061a8ae78c8f",
+  "active": "c68c8287d5533109",
   "lastOpenFiles": [
-    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-20250708213302.png",
-    "1_courses/um-y3s2-wic2008-iot/wic2008-note.md",
+    "1_courses/um-y3s2-wic2008-iot/wic2008-lect.md",
+    "1_courses/um-y3s2-wic2008-iot/wic2008-py2223-sol.md",
+    "1_courses/um-y3s2-wic2008-iot/wic2008-prac.md",
     "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-20250709082430.png",
+    "1_courses/um-y3s2-wic2008-iot/wic2008-spot2425-1-ques.md",
+    "wic2008-lect-1752109540142.png",
+    "1_courses/um-y3s2-wic2008-iot/imgs/image-1.png",
+    "1_courses/um-y3s2-wic2008-iot/imgs/image.png",
+    "1_courses/um-y3s2-wic2008-iot/wic2008-py2223_s2-expl.md",
+    "1_courses/um-y3s2-wic2008-iot/wic2008-py2023_24_s2-expl.md",
+    "1_courses/um-y3s2-wic2008-iot/wic2008-py2324-sol.md",
+    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-20250708213302.png",
     "imgs/Pasted.md",
     "imgs",
     "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752066484906.png",
@@ -205,14 +190,8 @@
     "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752065940694.png",
     "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752065830922.png",
     "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752056211658.png",
-    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752044111555.png",
-    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752044091899.png",
-    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752041397277.png",
-    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752024070841.png",
     "README.md",
     "2_misc/y2s1-README.md",
-    "1_courses/um-y3s2-wic2008-iot/wic2008-py2022_23_s2-sol.md",
-    "1_courses/um-y3s2-wic2008-iot/wic2008-py2022_23_s2-expl.md",
     "1_courses/um-y2s2-wif2002-sre/um-wif2002-sre-note/Requirement-Management.md",
     "1_courses/um-y2s2-wif2002-sre/um-wif2002-sre-note/Requirement-Elicatation.md",
     "1_courses/um-y2s2-wif2002-sre/um-wif2002-sre-note/Requirement-Documentation.md",
@@ -228,10 +207,6 @@
     "1_courses/um-y2s2-wia2005-algo/um-wia2005-algo-note/dynamic-programming/Dynamic Programming.md",
     "1_courses/um-y2s2-wia2005-algo/um-wia2005-algo-note/dynamic-programming/0-1 Knapsack Problem.md",
     "1_courses/um-y2s2-wia2005-algo/um-wia2005-algo-note/divide-and-conquer/Pros and Cons of Heapsort.md",
-    "1_courses/um-y2s2-wia2005-algo/um-wia2005-algo-note/divide-and-conquer/Heapsort.md",
-    "1_courses/um-y2s2-wia2005-algo/um-wia2005-algo-note/divide-and-conquer/Divide and Conquer.md",
-    "2_misc/y2s1-wia2001.md",
-    "2_misc/y3s2-README.md",
     "1_courses/um-y3s2-wic2008-iot/imgs",
     "2_experiences/Untitled",
     "3_techni",

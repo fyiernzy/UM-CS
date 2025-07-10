@@ -73,8 +73,6 @@ void loop()
 
 ### 1.2. lab2.2.3.2
 
-这题只要理解了底层原理，那其实也不难，可以看 wic2008-iot.excalidraw 的逐步拆解。
-
 ![](imgs/wic2008-code-compilation-1752024070841.png)
 
 ```javascript
@@ -239,6 +237,7 @@ void loop() {
 ### 1.5. lab2.2.4.3
 ![](wic2008-code-compilation-1752021323731.png)
 
+这题只要理解了底层原理，那其实也还好，可以看 wic2008-iot.excalidraw 的逐步拆解。
 
 ```c++
 // C++ code

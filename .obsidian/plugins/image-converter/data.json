@@ -28,7 +28,7 @@
       "conflictResolution": "increment"
     }
   ],
-  "selectedFilenamePreset": "Keep original name",
+  "selectedFilenamePreset": "NoteName-Timestamp",
   "outputFormat": "NONE",
   "quality": 100,
   "colorDepth": 1,
@@ -132,7 +132,7 @@
         "hideFolders": false
       }
     ],
-    "selectedLinkFormatPreset": "Default (Wikilink, Shortest)"
+    "selectedLinkFormatPreset": "Markdown, Relative"
   },
   "nonDestructiveResizeSettings": {
     "resizePresets": [
