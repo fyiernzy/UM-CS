@@ -154,7 +154,7 @@ Cloud Computing Model
 			- Used for managing and monitoring network devices.
 			- Secure it by ensuring updates are applied and access is restricted
 		- Data Plane:
-			- Forwards the actual data packets.
+			- Connect various ports and forwards the actual data packets.
 			- Secure it by filtering traffic and preventing unauthorized data flows.
 
 Data Protection (Securing the information)
@@ -183,6 +183,19 @@ Data Protection (Securing the information)
 | **Examples**: Financial Auditing, Information Technology Services, Cybersecurity, Cloud Computing.                                                                                                                                                                                     | Examples: Healthcare, Automotive, Agriculture, Retail, Logistics.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
 | **IoT Connectivity Platforms:** Provide the infrastructure (like AWS IoT or Azure IoT Hub) for any industry to connect and manage devices.<br><br>**IoT Data Analytics Platforms:** Enable the analysis of large datasets from IoT devices, regardless of the industry source.<br><br> | **Agriculture: Smart Irrigation Systems**  <br>Uses soil moisture sensors and weather forecast data to automatically deliver the precise amount of water needed, conserving resources.<br><br>**Retail: Smart Inventory Management**  <br>Uses RFID tags or smart shelves to provide real-time tracking of stock levels, automating reordering and reducing theft.<br><br>**Automotive: Predictive Maintenance**  <br>Uses sensors in vehicles to monitor engine health and predict part failures before they happen, alerting the owner to schedule service.<br><br>**Healthcare: Remote Patient Monitoring**  <br>Uses wearable sensors to transmit patient vitals (e.g., heart rate, glucose levels) directly to healthcare providers for continuous care.<br><br> |
 
+
+|System|Category|Rationale|
+|---|---|---|
+|**Ingestible microchips for medication tracking**|**Vertical**|This technology is exclusively designed for the **healthcare and pharmaceutical industries** to ensure medication adherence.|
+|**Electronic sensors on railroad tracks**|**Vertical**|These sensors are purpose-built for the **railway transportation industry** to monitor safety and operational efficiency.|
+|**Sensors in roadways for traffic light timing**|**Vertical**|This system is a specific application for **municipal traffic management** and smart city infrastructure.|
+|**Player tracking system for sporting events**|**Vertical**|This technology is tailored specifically for the **sports and entertainment industry** for performance analytics and fan engagement.|
+|**Energy management for room temperature**|**Horizontal**|This system can be used across numerous sectors, including **residential homes, corporate offices, hospitality (hotels), healthcare (hospitals), and retail**.|
+|**Smart water sprinklers**|**Horizontal**|This can be applied in various industries such as **agriculture, commercial landscaping, residential home use, and public park management**.|
+|**Shipping management system for tracking goods**|**Horizontal**|While the example is milk, the core function of tracking movement, vibration, and light is applicable to logistics for many industries, including **pharmaceuticals, electronics, food and beverage, and fine art**.|
+|**Real-time inventory tracking system**|**Horizontal**|This is a fundamental business need for almost any industry that manages physical goods, including **retail, manufacturing, warehousing, and logistics**.|
+
+
 ## Business Model Canvas
 
 - Help organizations and entrepreneurs map, discuss, design and invent new business models
@@ -205,3 +218,48 @@ Data Protection (Securing the information)
 	- Volume: The amount of data being transported and stored
 	- Velocity: The rate at which the data is generated
 	- Variety: The type of data, which is rarely in a state that is perfectly ready for processing and analysis
+
+
+The rapid growth of the IoT introduces new challenges, including these:
+- How to integrate millions devices from different vendors with custom applications
+- How to integrate new things into the existing network infrastructure
+- How to secure devices with varying levels of security
+
+A **headless Pi IoT service** refers to running a Raspberry Pi for an Internet of Things (IoT) application without a monitor, keyboard, or mouse connected to it.
+
+In computing, "**headless**" simply means operating a device or computer without a graphical user interface (GUI) or attached peripherals like a monitor, keyboard, and mouse. Instead of directly interacting with the device, you manage it remotely over a network connection, typically using a command-line interface (CLI) through protocols like SSH (Secure Shell) or through a web-based application.
+
+
+- SSID (Service Set Identifier) is the name of Wi-Fi network. When you open your computer or phone to connect to a wireless network, the list of names you see are all SSIDs.
+- WPA2-PSK (Wi-Fi Protected Access 2 - Pre-Shared Key) is a security protocol used to protect your wireless network from unauthorized access. It's one of the most common and secure methods for home and small office networks.
+	- **WPA2**: The second generation of the Wi-Fi Protected Access security standard.
+	- **PSK (Pre-Shared Key)**: This means that a single password (or "passphrase") is used by everyone who wants to connect to the network.
+
+```
+// Set password
+#config: enable secret <password>
+#config: username <username> secret <password>
+#config: line console 0
+#config-line: login local
+#config-line: exit
+#config: line vty 0 4
+#config-line: login local
+#config-line: exit
+
+// Access Control List (ACL)
+// Only traffic from the IP addresses `172.18.1.5` and `209.165.201.5` will be allowed to leave the router through the `g0/2` interface. All other traffic will be denied due to an implicit "deny all" rule at the end of every ACL.
+
+(config)# access-list 10 permit host 172.18.1.5
+(config)# access-list 10 permit host 209.165.201.5
+(config)# interface g0/2
+(config-if)# ip access-group 10 out
+(config-if)# end
+
+// Extended Access List
+(config)# access-list 110 permit ip host 209.165.200.226 host 209.165.201.5
+(config)# access-list 110 deny ip any host 209.165.201.5
+(config)# access-list 110 permit ip any any
+(config)# interface g0/0
+(config-if)# ip access-group 110 out
+(config-if)# end
+```
