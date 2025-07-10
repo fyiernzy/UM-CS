@@ -1108,7 +1108,7 @@ conn.close();
 
 ## 4. Case Study
 
-### w13-lab6.3.2.3
+### 4.1. w13-lab6.3.2.3
 
 ![Revision Activity 2024/2025](imgs/wic2008-code-compilation-1752066484906.png)
 
@@ -1245,7 +1245,7 @@ It could be useful for data analysis or to simply keep a log of garage door stat
 [6.3.2.3 Packet Tracer - Prototype & Test the Solution (Answers)](https://itexamanswers.net/6-3-2-3-packet-tracer-prototype-test-the-solution-answers.html)
 
 
-## Revision Activity
+## 5. Revision Activity
 
 Question
 ```c++
@@ -1304,3 +1304,154 @@ Because button is either one or zero.
 
 **Why do we add delay?**
 To make the output be more visible
+
+## 6. Code Knowledge
+
+`analogWrite`, `analogRead`, `customWrite`, `customRead`, `digitalWrite`, `digitalRead`
+
+| Function       | Min-Max Range       | Use Case                                                                                                 | Notes                                                             |
+| -------------- | ------------------- | -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| `digitalWrite` | HIGH/LOW            | Turn pin ON/OFF (LEDs, relays, digital sensors)                                                          | Only for digital output (0V or 3.3V/5V)                           |
+| `digitalRead`  | HIGH/LOW            | Read digital sensor status (switch, button)                                                              | Returns 0 (LOW) or 1 (HIGH)                                       |
+| `analogWrite`  | 0–255               | Output PWM signal (brightness, motor speed), simulating an analog output by varying the duty cycle of a  | Only works on PWM-capable pins, simulates analog output           |
+| `analogRead`   | 0–1023 (10-bit ADC) | Read analog sensors (light, temperature, etc.)                                                           | Only available on boards with ADC (e.g., Arduino, ESP32, not RPi) |
+| `customWrite`  | Varies              | IoE-only in Packet Tracer for user-defined output                                                        | Simulates different data types (float, int, etc.)                 |
+| `customRead`   | Varies              | IoE-only in Packet Tracer for user-defined input                                                         | Used with advanced sensors (e.g., humidity, GPS)                  |
+- `analogWrite(pin, value)`
+	- Generates PWM signal, simulating an analog output by varying the duty cycle of a digital signal.
+	- `pin`: must a PWM-capable digital pin.
+- `analogRead(pin)`
+	- Reads an analog voltage from a specified analog input pin and converts it into a digital value. Used for reading data from analog sensors (e.g., potentiometers, temperature sensors).
+	- `pin` must be a dedicated analog input pin (usually labeled A0, A1, etc.). Digital pins cannot perform `analogRead`.
+- `customWrite(pin, value)` and `customRead(pin)`
+	- **Packet Tracer specific functions** used to interact with specialized Packet Tracer components or I/O.
+	- Only used when instructed by Packet Tracer's documentation for a specific component.
+- **`digitalRead(pin)`**
+    - Reads the digital state of a specified digital input pin. Returns either `HIGH` or `LOW`. Used for reading buttons, switches, simple on/off sensors.
+    - `pin`: Must be a digital input pin.
+- **`digitalWrite(pin, value)`**
+	- Sets the digital state of a specified digital output pin to either `HIGH` or `LOW`. Used for turning LEDs on/off, controlling relays, etc.
+	- `pin`: Must be a digital output pin.
+
+
+Arduino
+```c++
+void setup() {
+	pinMode(pin, INPUT);
+	pinMode(pin, OUTPUT);
+	pinMode(pin, INPUT_PULLUP)
+}
+
+void loop() {
+	int val = digitalRead(pin); // HIGH/ LOW
+	digitalWrite(pin, HIGH);
+	digitalWrite(pin, LOW);
+	
+	int val = analogRead(pin);
+	analogWrite(pin, value);
+	
+	delay(1000); // in milliseconds
+}
+```
+
+JavaScript
+```javascript
+function setup() {
+	pinMode(pin, INPUT);
+	pintMode(pin, OUTPUT);
+}
+
+function loop() {
+	var val = digitalRead(pin); // HIGH, LOW
+	digitalWrite(pin, HIGH);
+	digitalWrite(pin, LOW);
+	
+	var val = analogRead(pin);
+	analogWrite(pin, value);
+	
+	delay(1000); // in milliseconds
+}
+```
+
+Python
+```python
+from gpio import *
+from time import *
+
+def main():
+	pinMode(pin, IN)
+	pinMode(pin, OUT)
+
+	val = digitalRead(pin) # HIGH/ LOW
+	digitalWrite(val, HIGH)
+	digitalWrite(val, HIGH)
+
+	customWrite(pin, 2)
+	customWrite(pin, 0)
+	sleep(1) # in seconds
+
+if __name__ == '__main__':
+	main()
+```
+
+Python RPi.GPIO
+```python
+from RPi.GPIO import GPIO
+from time import *
+
+GPIO.setMode(GPIO.BCM)
+
+GPIO.setup(pin, GPIO.IN)
+GPIO.setup(pin, GPIO.OUT)
+
+boolean = GPIO.input(pin)
+GPIO.output(pin, boolean)
+
+sleep(1)
+```
+
+**What is PWM and What Does GPIO Mean?**
+
+- **PWM (Pulse Width Modulation):** A technique to simulate analog voltage using digital pulses. It controls the amount of power delivered by rapidly switching a digital signal ON and OFF at a fixed frequency. The "analog" effect is achieved by varying the **duty cycle** (the proportion of time the signal is ON within a single period).
+	- **100% Duty Cycle:** The signal is always ON.
+	- **0% Duty Cycle:** The signal is always OFF.
+	- **50% Duty Cycle:** The signal is ON for half the time and OFF for half the time.
+- **GPIO (General Purpose Input/Output) pins:** Pins on a microcontroller or single-board computer that can be programmed to act as either inputs or outputs.
+
+**Do Raspberry Pi/ESP32/SBC/MCU have Real Analog Input/Output? Or alternatives?**
+
+| Board                   | Analog Input                        | Analog Output                  | Notes                              |
+| ----------------------- | ----------------------------------- | ------------------------------ | ---------------------------------- |
+| **Raspberry Pi**        | ❌ (Needs external ADC like MCP3008) | ❌ (Uses PWM as an alternative) | No native analog support           |
+| **ESP32**               | ✅ (12-bit ADC)                      | ✅ (PWM DAC + true DAC)         | Has real analog input and true DAC |
+| **Arduino (Uno)**       | ✅ (10-bit ADC)                      | ❌ (PWM only)                   | AnalogWrite is PWM (not true DAC)  |
+| **MCU (Packet Tracer)** | Simulated analogRead                | Simulated analogWrite          | For simulation only                |
+| **SBC (Packet Tracer)** | Same as above                       | Same as above                  | Simulated via software only        |
+- **Analog Input**
+	- Most **microcontrollers (MCUs)** like Arduino and ESP32 have built-in ADCs (Analog-to-Digital Converters) to directly read varying analog voltages from sensors.
+	- **Raspberry Pi** and most **SBCs** generally do **not** have built-in ADCs on their GPIO pins, which are purely digital. They require external ADC modules.
+- Analog Output
+	- Some high-end MCUs (e.g., certain ESP32 models) have a few true built-in DACs (Digital-to-Analog Converters) for genuine analog voltage output.
+	- **Raspberry Pi** and most **SBCs** generally do **not** have built-in DACs on their GPIO pins, which are purely digital.
+	- **Alternatives for "analog" output:**
+		- **PWM:** The most common alternative. It's a digital signal manipulated to create an "analog-like" effect (e.g., dimming LEDs), but it's **not a true analog output**.
+		- **External DAC Modules:** Can be connected to generate true analog voltage outputs.
+
+>[!info] Summary
+>- **MCUs (Arduino, ESP32):** Often have real Analog Input (ADC); some also have true Analog Output (DAC). All can use PWM for "analog-like" output.
+>- **SBCs (Raspberry Pi):** Typically have only digital GPIOs. They require external ADC modules for analog input and rely on PWM or external DAC modules for analog output.
+
+**Differences Between `INPUT_PULLUP` and `INPUT_PULLDOWN`**
+
+These are configurations for digital input pins that provide a stable default state and prevent "floating inputs" (random voltage fluctuations).
+
+| Feature                 | `INPUT_PULLUP`                                                                                                   | `INPUT_PULLDOWN`                                                                                                 |
+| ----------------------- | ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **Internal resistor**   | Pulls the pin voltage to `HIGH` (VCC).                                                                           | Pulls the pin voltage to `LOW` (GND).                                                                            |
+| **Default state**       | `HIGH` (when no external input is connected).                                                                    | `LOW` (when no external input is connected).                                                                     |
+| **External component**  | Used with buttons that connect the pin to `GND` when pressed (e.g., normally-open button between pin and `GND`). | Used with buttons that connect the pin to `VCC` when pressed (e.g., normally-open button between pin and `VCC`). |
+| **Syntax (Arduino)**    | `pinMode(pin, INPUT_PULLUP);`                                                                                    | No default `INPUT_PULLDOWN` on Uno (often needs external resistor or specific MCU support)                       |
+| **Syntax (RPi Python)** | `GPIO.setup(pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)`                                                             | `GPIO.PUD_DOWN` for pulldown                                                                                     |
+
+- **`INPUT_PULLUP`:** An internal resistor connects the input pin to the positive voltage supply. This makes the pin `HIGH` by default. It's ideal for buttons that connect to Ground when pressed.
+- **`INPUT_PULLDOWN`:** An internal resistor connects the input pin to Ground. This makes the pin `LOW` by default. It's ideal for buttons that connect to the positive voltage supply when pressed.
