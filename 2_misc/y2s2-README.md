@@ -1,17 +1,8 @@
-# 大二下学期
-
-以下是我在 2023/2024 (Semester 2) 拿的科目：
-
-- GBX0009 Info Seeking
-- GKP1001 Talent
-- WIA2004 Operating System
-- WIA2005 Algorithm Design and Analysis
-- WIA2002 Software Requirement Engineering
-- WIF2003 Web Programming
-- WIF3009 Python for Scientific Computing
+# 大二上学期
 
 
-- Info
+
+Info
   - Assignment 分成 Individual 和 Group。
     - Individual 会给你一个 Topic，我的 Topic 就是 Religion is important in promoting peace。他会需要你：
       - 找出这个题目的关键词，比如 Religion 和 Peace

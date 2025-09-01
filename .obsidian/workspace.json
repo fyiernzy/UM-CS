@@ -11,14 +11,32 @@
             "id": "49cacc15ad0bb62a",
             "type": "leaf",
             "state": {
+              "type": "image",
+              "state": {
+                "file": "1_courses/um-y3s2-wic2008-iot/imgs/image.png"
+              },
+              "icon": "lucide-image",
+              "title": "image"
+            }
+          }
+        ]
+      },
+      {
+        "id": "0dcbc8920a516f08",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8f8d4b9a1c4f051e",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "1_courses/um-y3s2-wic2008-iot/wic2008-business-model-canvas.md",
+                "file": "2_misc/3_Electives/WIF2003.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "wic2008-business-model-canvas"
+              "title": "WIF2003"
             }
           }
         ]
@@ -78,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "943b4f32c3686635",
@@ -161,61 +178,64 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-trim-whitespace:Trim whitespace": false
+      "obsidian-trim-whitespace:Trim whitespace": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "49cacc15ad0bb62a",
+  "active": "c68c8287d5533109",
   "lastOpenFiles": [
-    "1_courses/um-y3s2-wic2008-iot/wic2008-lect-note.md",
-    "1_courses/um-y3s2-wic2008-iot/wic2008-business-model-canvas.md",
-    "wic2008-business-model-canvas-1752159504013.png",
-    "1_courses/um-y3s2-wic2008-iot/wic2008-prac-note.md",
-    "1_courses/um-y3s2-wic2008-iot/wic2008-py2324-sol.md",
-    "1_courses/um-y3s2-wic2008-iot/wic2008-py2223-sol.md",
-    "1_courses/um-y3s2-wic2008-iot/wic2008-spot2425-1-ques.md",
-    "wic2008-py2324-sol-1752128292358.png",
-    "wic2008-py2324-sol-1752127645686.png",
-    "wic2008-py2324-sol-1752126451565.png",
-    "wic2008-py2324-sol-1752126253458.png",
+    "2_misc/1_Faculty-Core/y1s1-WIX1003.md",
+    "2_misc/1_Faculty-Core/y1s1-WIX1002.md",
+    "2_misc/1_Faculty-Core/y1s1-WIX1001.md",
+    "2_misc/2_Program-Core/y1s2/y1s2-WIA1005.md",
+    "2_misc/2_Program-Core/y1s2/y1s2-WIA1003.md",
+    "2_misc/2_Program-Core/y1s2/y1s2-WIA1002.md",
+    "2_misc/3_Electives/WIF3011.md",
+    "2_misc/3_Electives/WIF3004.md",
+    "2_misc/3_Electives/WIF3002.md",
+    "2_misc/3_Electives/WIF2003.md",
+    "2_misc/3_Electives/WIF2002.md",
+    "2_misc/3_Electives/WIC2008.md",
+    "WIC2008-1756719034448.png",
     "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-20250709082430.png",
-    "wic2008-lect-1752109540142.png",
-    "1_courses/um-y3s2-wic2008-iot/imgs/image-1.png",
-    "1_courses/um-y3s2-wic2008-iot/imgs/image.png",
-    "1_courses/um-y3s2-wic2008-iot/wic2008-py2223_s2-expl.md",
-    "1_courses/um-y3s2-wic2008-iot/wic2008-py2023_24_s2-expl.md",
     "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-20250708213302.png",
-    "imgs/Pasted.md",
-    "imgs",
-    "README.md",
+    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752068289557.png",
+    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752066484906.png",
+    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752065940694.png",
+    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752056211658.png",
+    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752044111555.png",
+    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752044091899.png",
+    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752041397277.png",
+    "2_misc/2_Program-Core/y2s2/y2s2-WIA2004.md",
+    "2_misc/2_Program-Core/y2s2/y2s2-WIA2005.md",
+    "2_misc/2_Program-Core/y2s1/y2s1-WIA2001.md",
+    "2_misc/2_Program-Core/y2s1/y2s1-WIA2002.md",
+    "2_misc/2_Program-Core/y1s2/y1s2-WIA1006.md",
+    "2_misc/2_Program-Core/y2s1/y2s1-WIA2006.md",
+    "2_misc/2_Program-Core/y2s1/y2s1-WIA2003.md",
+    "2_misc/README.md",
     "2_misc/y2s1-README.md",
-    "1_courses/um-y2s2-wif2002-sre/um-wif2002-sre-note/Requirement-Management.md",
-    "1_courses/um-y2s2-wif2002-sre/um-wif2002-sre-note/Requirement-Elicatation.md",
-    "1_courses/um-y2s2-wif2002-sre/um-wif2002-sre-note/Requirement-Documentation.md",
-    "1_courses/um-y2s2-wia2005-algo/um-wia2005-algo-tutorial/Algo-T-14-A.md",
-    "1_courses/um-y2s2-wia2005-algo/um-wia2005-algo-tutorial/Algo-T-11-A.md",
-    "1_courses/um-y2s2-wia2005-algo/um-wia2005-algo-tutorial/Algo-T-9-A.md",
-    "1_courses/um-y2s2-wia2005-algo/um-wia2005-algo-tutorial/Algo-T-8-A.md",
-    "1_courses/um-y2s2-wia2005-algo/um-wia2005-algo-summary/wia2005-c10,14.md",
-    "1_courses/um-y2s2-wia2005-algo/um-wia2005-algo-summary/WIA2005-C3-Sorting.md",
-    "1_courses/um-y2s2-wia2005-algo/um-wia2005-algo-summary/Sorting.md",
-    "1_courses/um-y2s2-wia2005-algo/um-wia2005-algo-note/dynamic-programming/Rod Cutting.md",
-    "1_courses/um-y2s2-wia2005-algo/um-wia2005-algo-note/dynamic-programming/Fibonacci Numbers.md",
-    "1_courses/um-y2s2-wia2005-algo/um-wia2005-algo-note/dynamic-programming/Dynamic Programming.md",
-    "1_courses/um-y2s2-wia2005-algo/um-wia2005-algo-note/dynamic-programming/0-1 Knapsack Problem.md",
-    "1_courses/um-y3s2-wic2008-iot/imgs",
-    "2_experiences/Untitled",
-    "3_techni",
-    "2_misc",
-    "1_courses",
-    "1_courses/um-y3s2-wic2008-iot",
-    "Guidance/@beginner/@images",
-    "Guidance/@beginner",
-    "CS/#Book/java-web-programming"
+    "2_misc/y3s2-README.md",
+    "2_misc/3_Electives/Untitled",
+    "2_misc/y2s2-README.md",
+    "2_misc/y2s2-wif2003.md",
+    "2_misc/2_Program-Core/y2s2",
+    "2_misc/2_Program-Core/y2s1",
+    "2_misc/2_Program-Core/Untitled.canvas",
+    "2_misc/2_Program-Core/y1s2",
+    "2_misc/2_Program-Core/y2s",
+    "2_misc/y2s1-misc/y2s1.md",
+    "2_misc/3_Electives",
+    "2_misc/2_Program-Core",
+    "2_misc/1_Faculty-Core",
+    "2_misc/y2s2-misc",
+    "2_misc/y1s2-misc"
   ]
 }
