@@ -11,12 +11,14 @@
             "id": "49cacc15ad0bb62a",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "1_courses/um-y3s2-wic2008-iot/imgs/image.png"
+                "file": "2_misc/2_Program-Core/y2s1/y2s1-WIA2002.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "image"
+              "icon": "lucide-file",
+              "title": "y2s1-WIA2002"
             }
           }
         ]
@@ -189,8 +191,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c68c8287d5533109",
+  "active": "49cacc15ad0bb62a",
   "lastOpenFiles": [
+    "y2s1-WIA2002-1757139915531.png",
+    "y2s1-WIA2002-1757139847502.png",
+    "y2s1-WIA2002-1757139826804.png",
+    "y2s1-WIA2002-1757139761450.png",
+    "y2s1-WIA2002-1757139713245.png",
+    "y2s1-WIA2002-1757133966876.png",
+    "y2s1-WIA2002-1757132326249.png",
+    "y2s1-WIA2002-1757132301255.png",
+    "y2s1-WIA2002-1757131902146.png",
+    "2_misc/3_Electives/WIF2002.md",
+    "2_misc/2_Program-Core/y2s1/y2s1-WIA2002.md",
+    "2_misc/3_Electives/WIF2003.md",
+    "1_courses/um-y3s2-wic2008-iot/imgs/image.png",
     "2_misc/1_Faculty-Core/y1s1-WIX1003.md",
     "2_misc/1_Faculty-Core/y1s1-WIX1002.md",
     "2_misc/1_Faculty-Core/y1s1-WIX1001.md",
@@ -200,23 +215,11 @@
     "2_misc/3_Electives/WIF3011.md",
     "2_misc/3_Electives/WIF3004.md",
     "2_misc/3_Electives/WIF3002.md",
-    "2_misc/3_Electives/WIF2003.md",
-    "2_misc/3_Electives/WIF2002.md",
     "2_misc/3_Electives/WIC2008.md",
     "WIC2008-1756719034448.png",
-    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-20250709082430.png",
-    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-20250708213302.png",
-    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752068289557.png",
-    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752066484906.png",
-    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752065940694.png",
-    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752056211658.png",
-    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752044111555.png",
-    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752044091899.png",
-    "1_courses/um-y3s2-wic2008-iot/imgs/wic2008-code-compilation-1752041397277.png",
     "2_misc/2_Program-Core/y2s2/y2s2-WIA2004.md",
     "2_misc/2_Program-Core/y2s2/y2s2-WIA2005.md",
     "2_misc/2_Program-Core/y2s1/y2s1-WIA2001.md",
-    "2_misc/2_Program-Core/y2s1/y2s1-WIA2002.md",
     "2_misc/2_Program-Core/y1s2/y1s2-WIA1006.md",
     "2_misc/2_Program-Core/y2s1/y2s1-WIA2006.md",
     "2_misc/2_Program-Core/y2s1/y2s1-WIA2003.md",
